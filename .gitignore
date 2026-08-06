@@ -1,0 +1,11 @@
+Tools/
+cloudflared.exe
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec
+*.lnk
+watermark.py
+push_duo.py
+manager.py

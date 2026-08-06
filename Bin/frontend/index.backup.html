@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>eFootball ID Shop</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:      #0d1117;
+      --surf:    #161b22;
+      --surf2:   #1c2128;
+      --border:  #30363d;
+      --text:    #e6edf3;
+      --muted:   #8b949e;
+      --green:   #00e676;
+      --orange:  #ff9100;
+      --gold:    #ffd700;
+      --cyan:    #00e5ff;
+      --msg-blue:#0084ff;
+    }
+
+    html { height: 100%; }
+
+    body {
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    /* ──────── TOP ZONE ──────── */
+    #topZone {
+      display: flex;
+      flex-direction: column;
+      background: var(--surf);
+      flex: 1;
+    }
+
+    #tabs {
+      display: flex;
+      padding: 8px 8px 0;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 9px 8px;
+      border: none;
+      border-bottom: 2px solid transparent;
+      border-radius: 8px 8px 0 0;
+      background: var(--surf2);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: color .2s, border-color .2s, background .2s;
+    }
+    .tab.active[data-mode="single"] { background: rgba(0,230,118,.12); color: var(--green);  border-bottom-color: var(--green);  }
+    .tab.active[data-mode="duo"]    { background: rgba(255,145,0,.12);  color: var(--orange); border-bottom-color: var(--orange); }
+
+    #searchRow {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 8px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    #searchInput {
+      flex: 1;
+      min-width: 0;
+      background: var(--surf2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 7px 14px;
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    #searchInput:focus { border-color: var(--cyan); }
+    #searchInput::placeholder { color: var(--muted); }
+
+    #clearBtn {
+      background: var(--surf2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 16px;
+      padding: 6px 10px;
+      font-size: 11px;
+      cursor: pointer;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: color .15s, border-color .15s;
+    }
+    #clearBtn:hover { color: var(--text); border-color: var(--muted); }
+
+    #countBadge {
+      font-size: 11px;
+      color: var(--cyan);
+      font-weight: 700;
+      white-space: nowrap;
+      flex-shrink: 0;
+      min-width: 44px;
+      text-align: right;
+    }
+
+    /* ──────── FILTER ICONS ──────── */
+    #filterZone {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 6px 8px 8px;
+    }
+
+    #filterGrid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 5px;
+    }
+    @media (min-width: 480px)  { #filterGrid { grid-template-columns: repeat(7,  1fr); } }
+    @media (min-width: 720px)  { #filterGrid { grid-template-columns: repeat(10, 1fr); } }
+    @media (min-width: 1100px) { #filterGrid { grid-template-columns: repeat(13, 1fr); } }
+
+    .fBtn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      background: transparent;
+      border: 2px solid transparent;
+      border-radius: 7px;
+      padding: 3px;
+      cursor: pointer;
+      transition: border-color .15s, box-shadow .15s, transform .15s, background .15s;
+    }
+    .fBtn img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      border-radius: 4px;
+      display: block;
+      background: var(--surf2);
+    }
+    .fBtn span {
+      font-size: 9px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+      text-align: center;
+    }
+    .fBtn.active {
+      opacity: 1;
+      border-color: var(--cyan);
+      box-shadow: 0 0 10px rgba(0,229,255,.45);
+      transform: scale(1.05);
+      background: rgba(0,229,255,.07);
+    }
+    .fBtn:hover:not(.active) { opacity: .75; }
+
+    /* ──────── RESULT ZONE ──────── */
+    #resultZone { display: none; }
+
+    body.mode-duo #topZone    { flex: 0 0 50vh; overflow: hidden; min-height: 80px; }
+    body.mode-duo #resultZone { display: block; flex: 1; min-height: 80px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+    body.mode-duo .card img   { object-fit: contain; background: var(--bg); }
+
+    /* ──────── DIVIDER ──────── */
+    #divider {
+      display: none;
+      height: 10px;
+      background: var(--border);
+      cursor: row-resize;
+      flex-shrink: 0;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #divider::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 36px;
+      height: 3px;
+      background: var(--muted);
+      border-radius: 2px;
+    }
+    body.mode-duo #divider { display: block; }
+
+
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      padding: 8px;
+    }
+    @media (min-width: 480px)  { #grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 768px)  { #grid { grid-template-columns: repeat(4, 1fr); } }
+    @media (min-width: 1100px) { #grid { grid-template-columns: repeat(6, 1fr); } }
+
+    .card {
+      position: relative;
+      aspect-ratio: 3/4;
+      border-radius: 9px;
+      overflow: hidden;
+      cursor: pointer;
+      background: var(--surf);
+      border: 1px solid var(--border);
+      transition: transform .15s, box-shadow .15s, border-color .15s;
+    }
+    .card:hover  { transform: scale(1.03); box-shadow: 0 4px 20px rgba(0,229,255,.22); border-color: var(--cyan); }
+    .card:active { transform: scale(.97); }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-ov {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.93) 0%, rgba(0,0,0,.55) 50%, transparent 100%);
+      padding: 30px 6px 6px;
+    }
+
+    .cBadge {
+      display: inline-block;
+      font-size: 8px;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 10px;
+      margin-bottom: 2px;
+    }
+    .cBadge.single { background: rgba(0,230,118,.2);  color: var(--green);  }
+    .cBadge.duo    { background: rgba(255,145,0,.2);   color: var(--orange); }
+
+    .cName {
+      font-size: 10px;
+      font-weight: 700;
+      color: #fff;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 1.3;
+    }
+
+    .cPrice { font-size: 10px; color: var(--gold); font-weight: 600; }
+
+    .empty {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      text-align: center;
+      gap: 10px;
+    }
+    .empty-icon { font-size: 44px; }
+    .empty p { font-size: 14px; line-height: 1.7; }
+
+    /* ──────── MODAL ──────── */
+    #modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.87);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      z-index: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+    #modal.hidden { display: none; }
+
+    #modalPanel {
+      background: var(--surf);
+      border-radius: 14px;
+      width: 100%;
+      max-width: 390px;
+      max-height: 90vh;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+    }
+
+    #mHead {
+      position: sticky;
+      top: 0;
+      background: var(--surf);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      z-index: 2;
+    }
+    #mHead span { font-size: 14px; font-weight: 600; }
+
+    #mClose {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: var(--surf2);
+      border: none;
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    #mImgWrap { padding: 16px 28px 8px; }
+
+    #mImg {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+
+    #mBody { padding: 4px 16px 28px; }
+
+    .mBadge {
+      display: inline-block;
+      background: #c49000;
+      color: #000;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin: 10px 0 6px;
+    }
+
+    .mName  { font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 2px; line-height: 1.2; }
+    .mGame  { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+
+    .mPriceLabel { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+
+    .mPriceRow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .mPrice { font-size: 28px; font-weight: 700; color: var(--gold); }
+
+    .msgBtnWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .iconGroup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    .iconLabel {
+      font-size: 10px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .iconLabel.messenger { color: var(--cyan); }
+    .iconLabel.facebook  { color: #1877f2; }
+    .msgBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0084ff, #44bfff);
+      box-shadow: 0 4px 14px rgba(0,132,255,.5);
+      text-decoration: none;
+      flex-shrink: 0;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .msgBtn:hover { transform: scale(1.08); box-shadow: 0 6px 18px rgba(0,132,255,.65); }
+    .msgBtn svg { width: 26px; height: 26px; fill: #fff; }
+    .fbBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      background: #1877f2;
+      box-shadow: 0 4px 14px rgba(24,119,242,.5);
+      text-decoration: none;
+      flex-shrink: 0;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .fbBtn:hover { transform: scale(1.08); box-shadow: 0 6px 18px rgba(24,119,242,.65); }
+    .fbBtn svg { width: 26px; height: 26px; fill: #fff; }
+
+    .mStock      { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+    .mDescTitle  { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .mDescList   { list-style: none; font-size: 13px; color: var(--muted); line-height: 2; }
+    .mDescList li::before { content: "-"; margin-right: 6px; }
+
+    /* loading */
+    #loader {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* scrollbar */
+    ::-webkit-scrollbar { width: 3px; height: 3px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+  </style>
+</head>
+<body>
+
+<!-- ── TOP: sticky filter zone ── -->
+<div id="topZone">
+  <div id="tabs">
+    <button class="tab active" data-mode="single">⚽ ไก่เดี่ยว</button>
+    <button class="tab" data-mode="duo">🔥 ไก่คู่</button>
+  </div>
+  <div id="searchRow">
+    <input id="searchInput" type="text" placeholder="🔍 ค้นหานักเตะ..." autocomplete="off" spellcheck="false">
+    <button id="clearBtn">✕ ล้าง</button>
+    <span id="countBadge">—</span>
+  </div>
+  <div id="filterZone">
+    <div id="filterGrid"></div>
+  </div>
+</div>
+
+<!-- ── DIVIDER (duo mode only) ── -->
+<div id="divider"></div>
+
+<!-- ── BOTTOM: results ── -->
+<div id="resultZone">
+  <div id="grid"><div id="loader">กำลังโหลด...</div></div>
+</div>
+
+<!-- ── MODAL ── -->
+<div id="modal" class="hidden" role="dialog" aria-modal="true">
+  <div id="modalPanel">
+    <div id="mHead">
+      <span>รายละเอียดสินค้า</span>
+      <button id="mClose" aria-label="ปิด">✕</button>
+    </div>
+    <div id="mImgWrap">
+      <img id="mImg" src="" alt="">
+    </div>
+    <div id="mBody"></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* ── HELPERS ── */
+function displayName(n) {
+  const override = { 'ZlaN': 'Zlatan' };
+  if (override[n]) return override[n];
+  return n && n.endsWith('N') ? n.slice(0, -1) : n;
+}
+
+/* ── CONFIG ── */
+const MESSENGER_URL = 'https://m.me/mook.mook.435051';
+const FACEBOOK_URL  = 'https://www.facebook.com/share/18ZbWnzzH4/?mibextid=wwXIfr';
+const PAGE_SIZE     = 60;
+const SINGLE_IMG    = '../assets/template/single/';
+const DUO_IMG       = '../assets/template/duo/';
+
+/* ── STATE ── */
+let allItems = [];
+let tagIndex = {};
+let mode     = 'single';
+let selected = new Set();
+let query    = '';
+let page     = 1;
+let filtered = [];
+
+/* ── HELPERS ── */
+function imgURL(base, filename) {
+  /* encodeURI preserves + sign (literal in filename) but encodes spaces */
+  return base + encodeURI(filename);
+}
+
+/* ── LOAD DATA ── */
+async function loadData() {
+  try {
+    const [rp, rs, rd, rc] = await Promise.all([
+      fetch('../data/playersdata.json'),
+      fetch('../data/singleplayers.json'),
+      fetch('../data/duoplayers.json'),
+      fetch('../data/duocombos.json')
+    ]);
+    if (!rp.ok || !rs.ok || !rd.ok || !rc.ok) throw new Error();
+    const playersData  = await rp.json();
+    const singleStatus = await rs.json();
+    const duoData      = await rd.json();
+    const duoCombos    = await rc.json();
+
+    const singleMap    = {};
+    singleStatus.forEach(s => { singleMap[s.name] = s; });
+    const duoPlayerMap = {};
+    duoData.players.forEach(d => { duoPlayerMap[d.name] = d; });
+
+    const singleItems = playersData.map((p, i) => {
+      const s = singleMap[p.name] || {};
+      return { id: 1000 + i, type: 'single', name: p.name, card_img: p.card_img,
+               players: p.players, price: s.price ?? 0, status: s.status || 'available' };
+    });
+
+    const duoPlayerItems = playersData.map((p, i) => {
+      const d = duoPlayerMap[p.name] || {};
+      return { id: 2000 + i, type: 'duo', name: p.name, card_img: p.card_img,
+               players: p.players, price: d.price ?? 0, status: d.status || 'available' };
+    });
+
+    const duoComboItems = duoCombos.map(c => ({
+      id: c.id, type: 'duo', name: c.players.join('+'), card_img: c.card_img,
+      players: c.players, price: c.price ?? 0, status: c.status || 'available'
+    }));
+
+    allItems = [...singleItems, ...duoPlayerItems, ...duoComboItems];
+  } catch {
+    allItems = SEED_DATA;
+  }
+  buildIndex();
+}
+
+function buildIndex() {
+  tagIndex = {};
+  allItems.forEach(item => {
+    (item.players || []).forEach(tag => {
+      if (!tagIndex[tag]) tagIndex[tag] = [];
+      tagIndex[tag].push(item);
+    });
+  });
+}
+
+/* ── FILTER LOGIC ── */
+function computeFiltered() {
+  let res = allItems.filter(p =>
+    p.type === mode && p.status !== 'sold' &&
+    (mode !== 'duo' || p.players.length > 1)
+  );
+
+  if (mode === 'duo' && selected.size > 0) {
+    res = res.filter(p => [...selected].every(tag => p.players.includes(tag)));
+  }
+
+  if (query) {
+    const q = query.toLowerCase();
+    res = res.filter(p => {
+      const name = (p.name || '').toLowerCase();
+      const players = (p.players || []).map(x => x.toLowerCase());
+      return name.includes(q) || players.some(x => x.includes(q));
+    });
+  }
+
+  return res;
+}
+
+/* ── UNIQUE TAGS FOR CURRENT MODE ── */
+function tagsForMode() {
+  const seen = new Set();
+  const out  = [];
+  allItems
+    .filter(p => (mode === 'duo' ? (p.type === 'duo' && p.players.length === 1) : p.type === mode) && p.status !== 'sold')
+    .forEach(p => {
+      (p.players || []).forEach(tag => {
+        if (!seen.has(tag)) { seen.add(tag); out.push(tag); }
+      });
+    });
+  return out.sort((a, b) => a.localeCompare(b, 'en'));
+}
+
+/* ── RENDER FILTER ICONS ── */
+function renderFilters() {
+  const fg = document.getElementById('filterGrid');
+  fg.innerHTML = '';
+  const frag = document.createDocumentFragment();
+
+  const allTags = tagsForMode();
+  const tags = query ? allTags.filter(t => t.toLowerCase().includes(query)) : allTags;
+  tags.forEach(tag => {
+    const btn = document.createElement('button');
+    btn.className = 'fBtn' + (selected.has(tag) ? ' active' : '');
+    btn.dataset.tag = tag;
+    btn.title = tag;
+
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.src = imgURL(SINGLE_IMG, tag + '.png');
+    img.alt = tag;
+    img.onerror = function () { this.style.opacity = '0.2'; };
+
+    const lbl = document.createElement('span');
+    lbl.textContent = displayName(tag);
+
+    btn.append(img, lbl);
+    btn.addEventListener('click', () => toggleTag(tag, btn));
+    frag.appendChild(btn);
+  });
+
+  fg.appendChild(frag);
+}
+
+/* ── TOGGLE TAG ── */
+function toggleTag(tag, btn) {
+  if (mode === 'single') {
+    const matches = (tagIndex[tag] || []).filter(p => p.type === 'single' && p.status !== 'sold');
+    if (matches.length > 0) openModal(matches[0].id);
+  } else {
+    if (selected.has(tag)) { selected.delete(tag); btn.classList.remove('active'); }
+    else                   { selected.add(tag);    btn.classList.add('active');    }
+    runFilter(true);
+  }
+}
+
+/* ── RENDER GRID ── */
+function createCard(p) {
+  const base = (p.type === 'duo' && p.players.length > 1) ? DUO_IMG : SINGLE_IMG;
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.dataset.id = p.id;
+
+  const img = document.createElement('img');
+  img.loading = 'lazy';
+  img.src = imgURL(base, p.card_img);
+  img.alt = p.name;
+  img.onerror = function () { this.style.opacity = '0'; };
+
+  const ov = document.createElement('div');
+  ov.className = 'card-ov';
+  ov.innerHTML =
+    `<span class="cBadge ${p.type}">${p.type === 'single' ? 'เดี่ยว' : 'คู่'}</span>` +
+    `<div class="cName">${displayName(p.name)}</div>` +
+    (p.price ? `<div class="cPrice">${p.price} coin</div>` : '');
+
+  card.append(img, ov);
+  card.addEventListener('click', () => openModal(p.id));
+  return card;
+}
+
+function renderGrid(reset) {
+  const grid = document.getElementById('grid');
+
+  if (reset) {
+    page = 1;
+    grid.innerHTML = '';
+  }
+
+  document.getElementById('countBadge').textContent = filtered.length + ' ไอดี';
+
+  if (filtered.length === 0) {
+    grid.innerHTML =
+      `<div class="empty">
+         <div class="empty-icon">⚽</div>
+         <p>ไม่พบไอดีที่ตรงกัน<br>ลองเปลี่ยนนักเตะที่กรอง</p>
+       </div>`;
+    return;
+  }
+
+  const start = (page - 1) * PAGE_SIZE;
+  const slice = filtered.slice(start, page * PAGE_SIZE);
+  const frag  = document.createDocumentFragment();
+  slice.forEach(p => frag.appendChild(createCard(p)));
+  grid.appendChild(frag);
+}
+
+function runFilter(reset = true) {
+  filtered = computeFiltered();
+  page = 1;
+  renderGrid(true);
+}
+
+/* ── MODAL ── */
+function openModal(id) {
+  const p = allItems.find(x => x.id === id);
+  if (!p) return;
+
+  const mImg  = document.getElementById('mImg');
+  const isSingle = p.type === 'single';
+
+  const imgBase = (!isSingle && p.players && p.players.length > 1) ? DUO_IMG : SINGLE_IMG;
+  mImg.src = imgURL(imgBase, p.card_img);
+  mImg.alt = p.name;
+  mImg.style.border    = `2px solid ${isSingle ? 'var(--cyan)' : 'var(--orange)'}`;
+  mImg.style.boxShadow = isSingle
+    ? '0 0 28px rgba(0,229,255,.5), 0 0 8px rgba(0,229,255,.2)'
+    : '0 0 28px rgba(255,145,0,.5), 0 0 8px rgba(255,145,0,.2)';
+
+  const desc = isSingle
+    ? ['ทุกไอดี ยังไม่ผูกเมล ไอดีไทย', 'มีแค่นักเตะคนนี้ คนเดียวในทีม', 'ทุกไอดีสามารถกลางได้']
+    : ['ไก่ 0 เกม ยังไม่ผูกเมล ไอดีไทย', 'ทุกไอดีสามารถกลางได้'];
+
+  document.getElementById('mBody').innerHTML =
+    `<div class="mName">${displayName(p.name)}</div>
+     <div class="mPriceLabel">ราคา</div>
+     <div class="mPriceRow">
+       <div class="mPrice">${p.price ? p.price + ' บาท' : 'ติดต่อสอบถาม'}</div>
+       <div class="msgBtnWrap">
+         <div class="iconGroup">
+           <a href="${MESSENGER_URL}" target="_blank" rel="noopener noreferrer"
+              class="msgBtn" title="สั่งซื้อผ่าน Messenger">
+             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.895 1.438 5.478
+                 3.688 7.185V22l3.37-1.85c.9.25 1.854.385 2.942.385
+                 5.523 0 10-4.145 10-9.243S17.523 2 12 2zm1.023
+                 12.448l-2.548-2.72-4.973 2.72 5.472-5.808 2.61
+                 2.72 4.912-2.72-5.473 5.808z"/>
+             </svg>
+           </a>
+           <span class="iconLabel messenger">ซื้อ/สอบถามเพิ่มเติม</span>
+         </div>
+         <div class="iconGroup">
+           <a href="${FACEBOOK_URL}" target="_blank" rel="noopener noreferrer"
+              class="fbBtn" title="เครดิตซื้อขาย">
+             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0
+                 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0
+                 -3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953
+                 H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796
+                 v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+             </svg>
+           </a>
+           <span class="iconLabel facebook">เครดิตซื้อขาย</span>
+         </div>
+       </div>
+     </div>
+     ${desc.length
+       ? `<div class="mDescTitle">รายละเอียดไอดี</div>
+          <ul class="mDescList">${desc.map(d => `<li>${d}</li>`).join('')}</ul>`
+       : ''}`;
+
+  document.getElementById('modal').classList.remove('hidden');
+  document.getElementById('modalPanel').scrollTop = 0;
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.add('hidden');
+}
+
+/* ── DIVIDER DRAG ── */
+function initDivider() {
+  const divider = document.getElementById('divider');
+  const topZone = document.getElementById('topZone');
+  let dragging = false, startY = 0, startH = 0;
+
+  function startDrag(y) {
+    dragging = true;
+    startY = y;
+    startH = topZone.getBoundingClientRect().height;
+  }
+  function moveDrag(y) {
+    if (!dragging) return;
+    const delta = y - startY;
+    const newH  = Math.max(80, Math.min(window.innerHeight - 80, startH + delta));
+    topZone.style.flex = '0 0 ' + newH + 'px';
+  }
+  function endDrag() { dragging = false; }
+
+  divider.addEventListener('mousedown',  e => { startDrag(e.clientY); e.preventDefault(); });
+  document.addEventListener('mousemove', e => moveDrag(e.clientY));
+  document.addEventListener('mouseup',   endDrag);
+
+  divider.addEventListener('touchstart', e => { startDrag(e.touches[0].clientY); e.preventDefault(); }, { passive: false });
+  document.addEventListener('touchmove', e => { if (dragging) { moveDrag(e.touches[0].clientY); e.preventDefault(); } }, { passive: false });
+  document.addEventListener('touchend',  endDrag);
+}
+
+/* ── EVENTS ── */
+function initEvents() {
+  /* mode tabs */
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      if (tab.dataset.mode === mode) return;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      mode = tab.dataset.mode;
+      document.body.classList.toggle('mode-duo', mode === 'duo');
+      document.getElementById('topZone').style.flex = '';
+      selected.clear();
+      query = '';
+      document.getElementById('searchInput').value = '';
+      renderFilters();
+      runFilter();
+    });
+  });
+
+  /* search */
+  document.getElementById('searchInput').addEventListener('input', e => {
+    query = e.target.value.toLowerCase().trim();
+    renderFilters();
+    runFilter(true);
+  });
+
+  /* clear */
+  document.getElementById('clearBtn').addEventListener('click', () => {
+    selected.clear();
+    query = '';
+    document.getElementById('searchInput').value = '';
+    renderFilters();
+    runFilter();
+  });
+
+  /* infinite scroll */
+  document.getElementById('resultZone').addEventListener('scroll', e => {
+    const el = e.currentTarget;
+    if (el.scrollHeight - el.scrollTop - el.clientHeight < 300) {
+      if (page * PAGE_SIZE < filtered.length) {
+        page++;
+        renderGrid(false);
+      }
+    }
+  }, { passive: true });
+
+  /* modal close */
+  document.getElementById('mClose').addEventListener('click', closeModal);
+  document.getElementById('modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+}
+
+/* ── INIT ── */
+(async () => {
+  await loadData();
+  initEvents();
+  initDivider();
+  renderFilters();
+  runFilter();
+})();
+
+/* ── SEED DATA (fallback เมื่อ players.json ยังไม่พร้อม) ── */
+const SEED_DATA = [
+  {id:1,  type:'single', players:['Abbiati'],          name:'Abbiati',              card_img:'Abbiati.png',              price:0,stock:1,status:'available',desc:['ไก่ 0 เกม ยังไม่ผูกเมล','ไอดี ไทย สะอาด']},
+  {id:2,  type:'single', players:['Adriano'],           name:'Adriano',              card_img:'Adriano.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:3,  type:'single', players:['Alonso'],            name:'Alonso',               card_img:'Alonso.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:4,  type:'single', players:['Araujo'],            name:'Araujo',               card_img:'Araujo.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:5,  type:'single', players:['Baggio'],            name:'Baggio',               card_img:'Baggio.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:6,  type:'single', players:['Balde'],             name:'Balde',                card_img:'Balde.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:7,  type:'single', players:['Berbatov'],          name:'Berbatov',             card_img:'Berbatov.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:8,  type:'single', players:['Cafu'],              name:'Cafu',                 card_img:'Cafu.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:9,  type:'single', players:['Costa'],             name:'Costa',                card_img:'Costa.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:10, type:'single', players:['Cruyff'],            name:'Cruyff',               card_img:'Cruyff.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:11, type:'single', players:['Cunha'],             name:'Cunha',                card_img:'Cunha.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:12, type:'single', players:['De Jong'],           name:'De Jong',              card_img:'De Jong.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:13, type:'single', players:['Del Piero'],         name:'Del Piero',            card_img:'Del Piero.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:14, type:'single', players:['Denilson'],          name:'Denilson',             card_img:'Denilson.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:15, type:'single', players:['Donnarumma'],        name:'Donnarumma',           card_img:'Donnarumma.png',           price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:16, type:'single', players:['Doue'],              name:'Doue',                 card_img:'Doue.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:17, type:'single', players:['Dragan Stojkovic'], name:'Dragan Stojkovic',     card_img:'Dragan Stojkovic.png',     price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:18, type:'single', players:['Edmilson'],          name:'Edmilson',             card_img:'Edmilson.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:19, type:'single', players:['Eto'],               name:'Eto',                  card_img:'Eto.png',                  price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:20, type:'single', players:['Ferdinand'],         name:'Ferdinand',            card_img:'Ferdinand.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:21, type:'single', players:['Fletcher'],          name:'Fletcher',             card_img:'Fletcher.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:22, type:'single', players:['Forlan'],            name:'Forlan',               card_img:'Forlan.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:23, type:'single', players:['Gattuso'],           name:'Gattuso',              card_img:'Gattuso.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:24, type:'single', players:['Gerd Muller'],      name:'Gerd Muller',          card_img:'Gerd Muller.png',          price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:25, type:'single', players:['Gerrad'],            name:'Gerrad',               card_img:'Gerrad.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:26, type:'single', players:['Gullit'],            name:'Gullit',               card_img:'Gullit.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:27, type:'single', players:['GullitN'],           name:'GullitN',              card_img:'GullitN.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:28, type:'single', players:['Guti'],              name:'Guti',                 card_img:'Guti.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:29, type:'single', players:['Gyokeres'],          name:'Gyokeres',             card_img:'Gyokeres.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:30, type:'single', players:['GyokeresN'],         name:'GyokeresN',            card_img:'GyokeresN.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:31, type:'single', players:['Hazard'],            name:'Hazard',               card_img:'Hazard.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:32, type:'single', players:['HazardN'],           name:'HazardN',              card_img:'HazardN.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:33, type:'single', players:['Iniesta'],           name:'Iniesta',              card_img:'Iniesta.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:34, type:'single', players:['Isak'],              name:'Isak',                 card_img:'Isak.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:35, type:'single', players:['Jude'],              name:'Jude',                 card_img:'Jude.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:36, type:'single', players:['Kagawa'],            name:'Kagawa',               card_img:'Kagawa.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:37, type:'single', players:['Koeman'],            name:'Koeman',               card_img:'Koeman.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:38, type:'single', players:['Koller'],            name:'Koller',               card_img:'Koller.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:39, type:'single', players:['Kounde'],            name:'Kounde',               card_img:'Kounde.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:40, type:'single', players:['Lampard'],           name:'Lampard',              card_img:'Lampard.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:41, type:'single', players:['Lilian Thuram'],    name:'Lilian Thuram',        card_img:'Lilian Thuram.png',        price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:42, type:'single', players:['Marcelo'],           name:'Marcelo',              card_img:'Marcelo.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:43, type:'single', players:['Marcus Thuram'],    name:'Marcus Thuram',        card_img:'Marcus Thuram.png',        price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:44, type:'single', players:['Marmous'],           name:'Marmous',              card_img:'Marmous.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:45, type:'single', players:['Mendes'],            name:'Mendes',               card_img:'Mendes.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:46, type:'single', players:['Musiala'],           name:'Musiala',              card_img:'Musiala.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:47, type:'single', players:['Nakamura'],          name:'Nakamura',             card_img:'Nakamura.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:48, type:'single', players:['Nedved'],            name:'Nedved',               card_img:'Nedved.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:49, type:'single', players:['Oddo'],              name:'Oddo',                 card_img:'Oddo.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:50, type:'single', players:['Olise'],             name:'Olise',                card_img:'Olise.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:51, type:'single', players:['Pato'],              name:'Pato',                 card_img:'Pato.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:52, type:'single', players:['Pedri'],             name:'Pedri',                card_img:'Pedri.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:53, type:'single', players:['Pele'],              name:'Pele',                 card_img:'Pele.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:54, type:'single', players:['PeleN'],             name:'PeleN',                card_img:'PeleN.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:55, type:'single', players:['Pep'],               name:'Pep',                  card_img:'Pep.png',                  price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:56, type:'single', players:['PepnN'],             name:'PepnN',                card_img:'PepnN.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:57, type:'single', players:['Pepe'],              name:'Pepe',                 card_img:'Pepe.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:58, type:'single', players:['Peruzzi'],           name:'Peruzzi',              card_img:'Peruzzi.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:59, type:'single', players:['Phan'],              name:'Phan',                 card_img:'Phan.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:60, type:'single', players:['Pique'],             name:'Pique',                card_img:'Pique.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:61, type:'single', players:['Puskas'],            name:'Puskas',               card_img:'Puskas.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:62, type:'single', players:['Ranaldinho'],        name:'Ranaldinho',           card_img:'Ranaldinho.png',           price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:63, type:'single', players:['Rapphinha'],         name:'Rapphinha',            card_img:'Rapphinha.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:64, type:'single', players:['Reus'],              name:'Reus',                 card_img:'Reus.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:65, type:'single', players:['Robson'],            name:'Robson',               card_img:'Robson.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:66, type:'single', players:['Romario'],           name:'Romario',              card_img:'Romario.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:67, type:'single', players:['Rooney'],            name:'Rooney',               card_img:'Rooney.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:68, type:'single', players:['Roy'],               name:'Roy',                  card_img:'Roy.png',                  price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:69, type:'single', players:['Saviola'],           name:'Saviola',              card_img:'Saviola.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:70, type:'single', players:['Scholes'],           name:'Scholes',              card_img:'Scholes.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:71, type:'single', players:['Sneijder'],          name:'Sneijder',             card_img:'Sneijder.png',             price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:72, type:'single', players:['Supanat'],           name:'Supanat',              card_img:'Supanat.png',              price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:73, type:'single', players:['Thiago'],            name:'Thiago',               card_img:'Thiago.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:74, type:'single', players:['Totti'],             name:'Totti',                card_img:'Totti.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:75, type:'single', players:['Xavi'],              name:'Xavi',                 card_img:'Xavi.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:76, type:'single', players:['Yaya'],              name:'Yaya',                 card_img:'Yaya.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:77, type:'single', players:['YayaN'],             name:'YayaN',                card_img:'YayaN.png',                price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:78, type:'single', players:['Zico'],              name:'Zico',                 card_img:'Zico.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:79, type:'single', players:['ZlaN'],              name:'ZlaN',                 card_img:'ZlaN.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:80, type:'single', players:['Zlatan'],            name:'Zlatan',               card_img:'Zlatan.png',               price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:81, type:'single', players:['Zola'],              name:'Zola',                 card_img:'Zola.png',                 price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  /* duos */
+  {id:101,type:'duo', players:['Abbiati','Figo'],            name:'Abbiati+Figo',          card_img:'Abbiati+Figo.png',          price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:102,type:'duo', players:['Cruyff','Adriano','Balde'],  name:'Cruyff+Adriano+Balde',  card_img:'Cruyff+Adriano+Balde.png',  price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:103,type:'duo', players:['Gattuso','Gerrad','Koller'], name:'Gattuso+Gerrad+Koller', card_img:'Gattuso+Gerrad+Koller.png', price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:104,type:'duo', players:['Oddo','Nedved'],             name:'Oddo+Nedved',            card_img:'Oddo+Nedved.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:105,type:'duo', players:['Puskas','Figo'],             name:'Puskas+Figo',            card_img:'Puskas+Figo.png',            price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+  {id:106,type:'duo', players:['Zlatan','Nedved'],           name:'Zlatan+Nedved',          card_img:'Zlatan+Nedved.png',          price:0,stock:1,status:'available',desc:['เชื่อม konami','ไอดีสะอาด']},
+];
+</script>
+</body>
+</html>
