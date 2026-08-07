@@ -31362,7 +31362,7 @@
       "MessiN"
     ],
     "card_img": "D/De Bruyne+James Rodriguez+MessiN.png",
-    "price": 0,
+    "price": 200,
     "status": "available"
   },
   {
@@ -31506,7 +31506,7 @@
       "James Rodriguez"
     ],
     "card_img": "D/De Bruyne+Neymar+James Rodriguez.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -31517,7 +31517,7 @@
       "MessiN"
     ],
     "card_img": "D/De Bruyne+Neymar+MessiN.png",
-    "price": 0,
+    "price": 200,
     "status": "available"
   },
   {
@@ -31550,7 +31550,7 @@
       "Ronaldo"
     ],
     "card_img": "D/De Bruyne+Neymar+Ronaldo.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -112817,7 +112817,7 @@
       "Ronaldo"
     ],
     "card_img": "M/ModricN+MessiN+Ronaldo.png",
-    "price": 0,
+    "price": 630,
     "status": "available"
   },
   {
@@ -120533,7 +120533,7 @@
       "Ronaldo"
     ],
     "card_img": "N/Neuer+De Bruyne+Ronaldo.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -120585,7 +120585,7 @@
       "Ronaldo"
     ],
     "card_img": "N/Neuer+MessiN+Ronaldo.png",
-    "price": 0,
+    "price": 630,
     "status": "available"
   },
   {
@@ -120628,7 +120628,7 @@
       "Ronaldo"
     ],
     "card_img": "N/Neuer+ModricN+Ronaldo.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -120649,7 +120649,7 @@
       "MessiN"
     ],
     "card_img": "N/Neuer+Neymar+MessiN.png",
-    "price": 0,
+    "price": 200,
     "status": "available"
   },
   {
@@ -120682,7 +120682,7 @@
       "Ronaldo"
     ],
     "card_img": "N/Neuer+Neymar+Ronaldo.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -120767,7 +120767,7 @@
       "MessiN"
     ],
     "card_img": "N/Neymar+James Rodriguez+MessiN.png",
-    "price": 0,
+    "price": 200,
     "status": "available"
   },
   {
