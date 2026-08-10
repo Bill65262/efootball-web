@@ -45,6 +45,11 @@
     "status": "available"
   },
   {
+    "name": "Gullit",
+    "price": 0,
+    "status": "sold"
+  },
+  {
     "name": "Vieira",
     "price": 150,
     "status": "available"
@@ -868,10 +873,5 @@
     "name": "Baggio",
     "price": 50,
     "status": "available"
-  },
-  {
-    "name": "Gullit",
-    "price": 0,
-    "status": "sold"
   }
 ]
