@@ -63,6 +63,13 @@
     ]
   },
   {
+    "name": "Gullit",
+    "card_img": "Gullit.png",
+    "players": [
+      "Gullit"
+    ]
+  },
+  {
     "name": "Vieira",
     "card_img": "Vieira.png",
     "players": [
