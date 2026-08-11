@@ -106,7 +106,7 @@
       "Seaman"
     ],
     "card_img": "A/Abbiati+Cafu+CruyffNN+Seaman.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -388,7 +388,7 @@
       "ReusN"
     ],
     "card_img": "A/Abbiati+Gullit+ReusN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -593,7 +593,7 @@
       "CostaN"
     ],
     "card_img": "A/Abbiati+Kagawa+CostaN.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -605,7 +605,7 @@
       "Ono"
     ],
     "card_img": "A/Abbiati+Kagawa+MessiN+Ono.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -652,7 +652,7 @@
       "Rijkaard"
     ],
     "card_img": "A/Abbiati+Koeman+HaalandN+Rijkaard.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -664,7 +664,7 @@
       "BergkampN"
     ],
     "card_img": "A/Abbiati+Koeman+MessiN+BergkampN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -1511,7 +1511,7 @@
       "Massaro"
     ],
     "card_img": "A/Abbiati+Ronaldinho+Massaro.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -1761,7 +1761,7 @@
       "Massaro"
     ],
     "card_img": "A/Abbiati+Totti+Massaro.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -21546,7 +21546,7 @@
       "Aguero"
     ],
     "card_img": "C/Costa+Abbiati+Lilian ThuramN+Aguero.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -21569,7 +21569,7 @@
       "Aguero"
     ],
     "card_img": "C/Costa+Abbiati+Ronaldo+Aguero.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -21935,7 +21935,7 @@
       "Massaro"
     ],
     "card_img": "C/Costa+Cafu+Massaro.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -22826,7 +22826,7 @@
       "ScholesN"
     ],
     "card_img": "C/Costa+Gerrad+Dimarco+ScholesN.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -22959,7 +22959,7 @@
       "ReusN"
     ],
     "card_img": "C/Costa+Gullit+Bronckhorst+Neymar+ReusN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -23352,7 +23352,7 @@
       "ModricN"
     ],
     "card_img": "C/Costa+Kagawa+ModricN.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -23410,7 +23410,7 @@
       "Massaro"
     ],
     "card_img": "C/Costa+Koeman+Ekitike+James Rodriguez+Massaro.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -23541,7 +23541,7 @@
       "Vieira"
     ],
     "card_img": "C/Costa+Lampard+Vieira.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -24307,7 +24307,7 @@
       "CostaN"
     ],
     "card_img": "C/Costa+Oddo+ModricN+CostaN.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -25356,7 +25356,7 @@
       "Massaro"
     ],
     "card_img": "C/Costa+Totti+Ekitike+Neuer+De Bruyne+Massaro.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -45749,7 +45749,7 @@
       "Rijkaard"
     ],
     "card_img": "F/Ferdinand+Gattuso+De Bruyne+Rijkaard.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -46313,7 +46313,7 @@
       "RooneyN"
     ],
     "card_img": "F/Ferdinand+Oddo+RooneyN.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -51051,7 +51051,7 @@
       "Massaro"
     ],
     "card_img": "F/Fletcher+Costa+Nedved+De Bruyne+Massaro.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -53872,7 +53872,7 @@
       "Massaro"
     ],
     "card_img": "F/Forlan+Costa+Massaro.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -54254,7 +54254,7 @@
       "BergkampN"
     ],
     "card_img": "F/Forlan+Gattuso+Cafu+Neuer+BergkampN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -54265,7 +54265,7 @@
       "Ono"
     ],
     "card_img": "F/Forlan+Gattuso+Ono.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -54276,7 +54276,7 @@
       "RooneyN"
     ],
     "card_img": "F/Forlan+Gattuso+RooneyN.png",
-    "price": 0,
+    "price": 150,
     "status": "available"
   },
   {
@@ -54348,7 +54348,7 @@
       "Aguero"
     ],
     "card_img": "F/Forlan+Gullit+Totti+Ronaldo+Aguero.png",
-    "price": 0,
+    "price": 650,
     "status": "available"
   },
   {
@@ -55071,7 +55071,7 @@
       "CostaN"
     ],
     "card_img": "F/Forlan+Oddo+Balde+CostaN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -55082,7 +55082,7 @@
       "BergkampN"
     ],
     "card_img": "F/Forlan+Oddo+BergkampN.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -55093,7 +55093,7 @@
       "RooneyN"
     ],
     "card_img": "F/Forlan+Oddo+RooneyN.png",
-    "price": 0,
+    "price": 150,
     "status": "available"
   },
   {
@@ -58661,7 +58661,7 @@
       "Seaman"
     ],
     "card_img": "G/Gattuso+Abbiati+GyokeresN+MessiN+Seaman.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -58856,7 +58856,7 @@
       "Ono"
     ],
     "card_img": "G/Gattuso+Berbatov+Ono.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -59374,7 +59374,7 @@
       "Aguero"
     ],
     "card_img": "G/Gattuso+Costa+Aguero.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -59386,7 +59386,7 @@
       "Bommel"
     ],
     "card_img": "G/Gattuso+Costa+Bonucci+Bommel.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -59398,7 +59398,7 @@
       "CostaN"
     ],
     "card_img": "G/Gattuso+Costa+Olmo+CostaN.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -60068,7 +60068,7 @@
       "BergkampN"
     ],
     "card_img": "G/Gattuso+Gullit+BergkampN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -60079,7 +60079,7 @@
       "Ono"
     ],
     "card_img": "G/Gattuso+Gullit+Ono.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -60094,7 +60094,7 @@
       "ReusN"
     ],
     "card_img": "G/Gattuso+Gullit+Totti+Roy+Neymar+Ronaldo+ReusN.png",
-    "price": 0,
+    "price": 620,
     "status": "available"
   },
   {
@@ -60234,7 +60234,7 @@
       "RooneyN"
     ],
     "card_img": "G/Gattuso+Hazard+RooneyN.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -60435,7 +60435,7 @@
       "Rijkaard"
     ],
     "card_img": "G/Gattuso+Kagawa+Rijkaard.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -61319,7 +61319,7 @@
       "Massaro"
     ],
     "card_img": "G/Gattuso+Oddo+Massaro.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -61441,7 +61441,7 @@
       "CostaN"
     ],
     "card_img": "G/Gattuso+Pele+Gerrad+CostaN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -61453,7 +61453,7 @@
       "Ono"
     ],
     "card_img": "G/Gattuso+Pep+Ronaldinho+Ono.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -62196,7 +62196,7 @@
       "RooneyN"
     ],
     "card_img": "G/Gattuso+Scholes+RooneyN.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -62586,7 +62586,7 @@
       "BergkampN"
     ],
     "card_img": "G/Gattuso+ZlaN+Kounde+BergkampN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -66079,7 +66079,7 @@
       "ReusN"
     ],
     "card_img": "G/Gullit+Kagawa+Balde+ReusN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -66107,7 +66107,7 @@
       "Ono"
     ],
     "card_img": "G/Gullit+Koeman+Peruzzi+Thiago+Cucurella+Neuer+Ono.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -66233,7 +66233,7 @@
       "ScholesN"
     ],
     "card_img": "G/Gullit+Pele+ScholesN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -66385,7 +66385,7 @@
       "Totti"
     ],
     "card_img": "G/Gullit+Totti.png",
-    "price": 0,
+    "price": 250,
     "status": "available"
   },
   {
@@ -81294,7 +81294,7 @@
       "Massaro"
     ],
     "card_img": "I/Iniesta+Abbiati+Koeman+Bergkamp+Massaro.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -81454,7 +81454,7 @@
       "Bommel"
     ],
     "card_img": "I/Iniesta+Costa+Berbatov+Ronaldo+Bommel.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -81629,7 +81629,7 @@
       "Ono"
     ],
     "card_img": "I/Iniesta+Gullit+JudeNN+Lilian ThuramN+Ono.png",
-    "price": 0,
+    "price": 480,
     "status": "available"
   },
   {
@@ -83061,7 +83061,7 @@
       "Bommel"
     ],
     "card_img": "I/Isak+Forlan+Oddo+Bommel.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -120656,7 +120656,7 @@
       "Ono"
     ],
     "card_img": "O/Oddo+Abbiati+Kagawa+Lilian ThuramN+Ono.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -121622,7 +121622,7 @@
       "RooneyN"
     ],
     "card_img": "O/Oddo+Dragan Stojkovic+RooneyN.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -122077,7 +122077,7 @@
       "ScholesN"
     ],
     "card_img": "O/Oddo+Hazard+ScholesN.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -122450,7 +122450,7 @@
       "Koeman"
     ],
     "card_img": "O/Oddo+Koeman.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -123530,7 +123530,7 @@
       "BergkampN"
     ],
     "card_img": "O/Oddo+PepN+BergkampN.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -124482,7 +124482,7 @@
       "Ono"
     ],
     "card_img": "O/Oddo+Scholes+Edmilson+Totti+GyokeresN+MessiN+Ono.png",
-    "price": 0,
+    "price": 250,
     "status": "available"
   },
   {
@@ -125055,7 +125055,7 @@
       "Massaro"
     ],
     "card_img": "O/Oddo+ZlaN+Desailly+Massaro.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -125114,7 +125114,7 @@
       "ReusN"
     ],
     "card_img": "O/Oddo+Zlatan+Salah+ReusN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -125125,7 +125125,7 @@
       "ScholesN"
     ],
     "card_img": "O/Oddo+Zlatan+ScholesN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -152439,7 +152439,7 @@
       "Ono"
     ],
     "card_img": "R/Reus+Gattuso+Gerrad+Ono.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -153588,7 +153588,7 @@
       "Aguero"
     ],
     "card_img": "R/Reus+Oddo+Musiala+Aguero.png",
-    "price": 0,
+    "price": 130,
     "status": "available"
   },
   {
@@ -154867,7 +154867,7 @@
       "CostaN"
     ],
     "card_img": "R/Reus+Zlatan+MessiN+CostaN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -160867,7 +160867,7 @@
       "ScholesN"
     ],
     "card_img": "R/Rooney+Abbiati+MessiN+ScholesN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -161247,7 +161247,7 @@
       "Massaro"
     ],
     "card_img": "R/Rooney+Costa+GyokeresN+Rossi+Massaro.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -161663,7 +161663,7 @@
       "Massaro"
     ],
     "card_img": "R/Rooney+Gattuso+CannavaroN+Neuer+Massaro.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -161674,7 +161674,7 @@
       "CostaN"
     ],
     "card_img": "R/Rooney+Gattuso+CostaN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -161853,7 +161853,7 @@
       "ReusN"
     ],
     "card_img": "R/Rooney+Gullit+Ronaldinho+Neuer+ReusN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -163370,7 +163370,7 @@
       "Rijkaard"
     ],
     "card_img": "R/Rooney+Zlatan+Cafu+Rijkaard.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -163383,7 +163383,7 @@
       "Bommel"
     ],
     "card_img": "R/Rooney+Zlatan+De Bruyne+Neymar+Bommel.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -187210,7 +187210,7 @@
       "ReusN"
     ],
     "card_img": "Y/Yaya+Gullit+Ronaldo+ReusN.png",
-    "price": 0,
+    "price": 650,
     "status": "available"
   },
   {
@@ -189458,7 +189458,7 @@
       "BergkampN"
     ],
     "card_img": "Z/Zico+Costa+Cafu+Olmo+Ronaldo+BergkampN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -189802,7 +189802,7 @@
       "Massaro"
     ],
     "card_img": "Z/Zico+Gattuso+Massaro.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -189908,7 +189908,7 @@
       "CostaN"
     ],
     "card_img": "Z/Zico+Gullit+Gerrad+James Rodriguez+CostaN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -189920,7 +189920,7 @@
       "ScholesN"
     ],
     "card_img": "Z/Zico+Gullit+Gerrad+ScholesN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -190668,7 +190668,7 @@
       "CostaN"
     ],
     "card_img": "Z/Zico+Oddo+Totti+CostaN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -191559,7 +191559,7 @@
       "Bommel"
     ],
     "card_img": "Z/Zico+Zlatan+Olmo+Bommel.png",
-    "price": 0,
+    "price": 280,
     "status": "available"
   },
   {
@@ -197496,7 +197496,7 @@
       "RooneyN"
     ],
     "card_img": "Z/Zlatan+Hazard+Casemiro+Ronaldo+RooneyN.png",
-    "price": 0,
+    "price": 490,
     "status": "available"
   },
   {
@@ -198077,7 +198077,7 @@
       "Pele"
     ],
     "card_img": "Z/Zlatan+Pele.png",
-    "price": 0,
+    "price": 250,
     "status": "available"
   },
   {
