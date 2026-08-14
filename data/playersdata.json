@@ -14,6 +14,13 @@
     ]
   },
   {
+    "name": "HazardNN",
+    "card_img": "HazardNN.png",
+    "players": [
+      "HazardNN"
+    ]
+  },
+  {
     "name": "HazardN",
     "card_img": "HazardN.png",
     "players": [
@@ -207,6 +214,20 @@
     "card_img": "Inzaghi.png",
     "players": [
       "Inzaghi"
+    ]
+  },
+  {
+    "name": "Cahill",
+    "card_img": "Cahill.png",
+    "players": [
+      "Cahill"
+    ]
+  },
+  {
+    "name": "Diego Costa",
+    "card_img": "Diego Costa.png",
+    "players": [
+      "Diego Costa"
     ]
   },
   {
@@ -1222,27 +1243,6 @@
     "card_img": "Baggio.png",
     "players": [
       "Baggio"
-    ]
-  },
-  {
-    "name": "Cahill",
-    "card_img": "Cahill.png",
-    "players": [
-      "Cahill"
-    ]
-  },
-  {
-    "name": "Diego Costa",
-    "card_img": "Diego Costa.png",
-    "players": [
-      "Diego Costa"
-    ]
-  },
-  {
-    "name": "HazardNN",
-    "card_img": "HazardNN.png",
-    "players": [
-      "HazardNN"
     ]
   }
 ]

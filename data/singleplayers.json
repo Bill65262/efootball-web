@@ -47,7 +47,7 @@
   {
     "name": "Gullit",
     "price": 200,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "Vieira",
@@ -876,17 +876,17 @@
   },
   {
     "name": "Cahill",
-    "price": 0,
-    "status": "available"
+    "price": 40,
+    "status": "sold"
   },
   {
     "name": "Diego Costa",
-    "price": 0,
-    "status": "available"
+    "price": 50,
+    "status": "sold"
   },
   {
     "name": "HazardNN",
-    "price": 0,
-    "status": "available"
+    "price": 150,
+    "status": "sold"
   }
 ]
