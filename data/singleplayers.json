@@ -873,5 +873,20 @@
     "name": "Baggio",
     "price": 50,
     "status": "available"
+  },
+  {
+    "name": "Cahill",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "Diego Costa",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "HazardNN",
+    "price": 0,
+    "status": "available"
   }
 ]
