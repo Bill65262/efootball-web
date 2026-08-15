@@ -105,7 +105,7 @@
       "Cahill"
     ],
     "card_img": "A/Abbiati+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -1838,7 +1838,7 @@
       "HazardNN"
     ],
     "card_img": "A/Alba+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -1859,7 +1859,7 @@
       "HazardNN"
     ],
     "card_img": "A/Alba+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -1891,7 +1891,7 @@
       "HazardNN"
     ],
     "card_img": "A/Alba+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -1925,7 +1925,7 @@
       "Cahill"
     ],
     "card_img": "A/Alba+Bonucci+Casemiro+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -2305,7 +2305,7 @@
       "HazardNN"
     ],
     "card_img": "A/Alba+Garcia+HaalandN+Vieira+HazardNN.png",
-    "price": 0,
+    "price": 700,
     "status": "available"
   },
   {
@@ -2808,7 +2808,7 @@
       "Cahill"
     ],
     "card_img": "A/Alba+Neymar+ReusN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -3149,7 +3149,7 @@
       "Diego Costa"
     ],
     "card_img": "A/Alba+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -5630,7 +5630,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Baresi+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -8411,7 +8411,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bommel+Garcia+KoemanN+MessiN+Diego Costa.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -8702,7 +8702,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+CostaN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -9099,7 +9099,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+Desailly+ReusN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -9810,7 +9810,7 @@
       "HazardNN"
     ],
     "card_img": "B/Bonucci+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -9953,7 +9953,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bonucci+ModricN+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -10355,7 +10355,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+Neymar+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -10613,7 +10613,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+ReusN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -10624,7 +10624,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bonucci+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -10678,7 +10678,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -10893,7 +10893,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+Ronaldo+Seaman+Cahill.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -10904,7 +10904,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -10936,7 +10936,7 @@
       "Cahill"
     ],
     "card_img": "B/Bonucci+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -10947,7 +10947,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bonucci+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -11425,7 +11425,7 @@
       "Cahill"
     ],
     "card_img": "B/Bouaddi+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -11562,7 +11562,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bouaddi+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -11860,7 +11860,7 @@
       "HazardNN"
     ],
     "card_img": "B/Bouaddi+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -12117,7 +12117,7 @@
       "Cahill"
     ],
     "card_img": "B/Bouaddi+ModricN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -12128,7 +12128,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bouaddi+ModricN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -12433,7 +12433,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bronckhorst+Aguero+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -12556,7 +12556,7 @@
       "HazardNN"
     ],
     "card_img": "B/Bronckhorst+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -13611,7 +13611,7 @@
       "HazardNN"
     ],
     "card_img": "B/Bronckhorst+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -13862,7 +13862,7 @@
       "Diego Costa"
     ],
     "card_img": "B/Bronckhorst+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -13905,7 +13905,7 @@
       "Cahill"
     ],
     "card_img": "B/Bronckhorst+Seaman+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -18659,7 +18659,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Carlos+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -18911,7 +18911,7 @@
       "Cahill"
     ],
     "card_img": "C/Casemiro+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -18922,7 +18922,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -18943,7 +18943,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Casemiro+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -18964,7 +18964,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -19135,7 +19135,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+De Bruyne+James Rodriguez+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -19191,7 +19191,7 @@
       "Cahill"
     ],
     "card_img": "C/Casemiro+De Bruyne+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -19674,7 +19674,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Casemiro+Garcia+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -20229,7 +20229,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Casemiro+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -20739,7 +20739,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+Neymar+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -20872,7 +20872,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Casemiro+Ono+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -21040,7 +21040,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21361,7 +21361,7 @@
       "Cahill"
     ],
     "card_img": "C/Casemiro+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -21415,7 +21415,7 @@
       "HazardNN"
     ],
     "card_img": "C/Casemiro+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -22375,7 +22375,7 @@
       "Cahill"
     ],
     "card_img": "C/Costa+De Bruyne+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -28793,7 +28793,7 @@
       "Diego Costa"
     ],
     "card_img": "C/CruyffN+Ronaldo+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -29007,7 +29007,7 @@
       "Cahill"
     ],
     "card_img": "C/CruyffNN+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -29076,7 +29076,7 @@
       "Cahill"
     ],
     "card_img": "C/CruyffNN+CostaN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -30743,7 +30743,7 @@
       "Diego Costa"
     ],
     "card_img": "C/Cucurella+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -31858,7 +31858,7 @@
       "Cahill"
     ],
     "card_img": "D/De Bruyne+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -31868,7 +31868,7 @@
       "Diego Costa"
     ],
     "card_img": "D/De Bruyne+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -31903,7 +31903,7 @@
       "HazardNN"
     ],
     "card_img": "D/De Bruyne+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -32135,7 +32135,7 @@
       "Diego Costa"
     ],
     "card_img": "D/De Bruyne+ModricN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -32225,7 +32225,7 @@
       "Cahill"
     ],
     "card_img": "D/De Bruyne+Neymar+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -32355,7 +32355,7 @@
       "HazardNN"
     ],
     "card_img": "D/De Bruyne+Ronaldo+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -32726,7 +32726,7 @@
       "Cahill"
     ],
     "card_img": "D/Desailly+Aguero+Cahill.png",
-    "price": 0,
+    "price": 150,
     "status": "available"
   },
   {
@@ -32757,7 +32757,7 @@
       "Cahill"
     ],
     "card_img": "D/Desailly+Bommel+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -32768,7 +32768,7 @@
       "Diego Costa"
     ],
     "card_img": "D/Desailly+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -33228,7 +33228,7 @@
       "Cahill"
     ],
     "card_img": "D/Desailly+Inzaghi+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -34615,7 +34615,7 @@
       "Diego Costa"
     ],
     "card_img": "D/Desailly+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 150,
     "status": "available"
   },
   {
@@ -34895,7 +34895,7 @@
       "Cahill"
     ],
     "card_img": "D/Desailly+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -41327,7 +41327,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+CostaN+Cahill.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -41635,7 +41635,7 @@
       "Diego Costa"
     ],
     "card_img": "E/Ekitike+Garcia+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -41704,7 +41704,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+James Rodriguez+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -41806,7 +41806,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+James Rodriguez+Ronaldo+Aguero+Cahill.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -41852,7 +41852,7 @@
       "HazardNN"
     ],
     "card_img": "E/Ekitike+James Rodriguez+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -42077,7 +42077,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+MessiN+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -42122,7 +42122,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+MessiN+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -42222,7 +42222,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+ModricN+CostaN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -42760,7 +42760,7 @@
       "Diego Costa"
     ],
     "card_img": "E/Ekitike+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -42771,7 +42771,7 @@
       "HazardNN"
     ],
     "card_img": "E/Ekitike+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -42960,7 +42960,7 @@
       "Cahill"
     ],
     "card_img": "E/Ekitike+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -43004,7 +43004,7 @@
       "HazardNN"
     ],
     "card_img": "E/Ekitike+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -43413,7 +43413,7 @@
       "Cahill"
     ],
     "card_img": "E/Enzo Fernandez+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -43583,7 +43583,7 @@
       "Diego Costa"
     ],
     "card_img": "E/Enzo Fernandez+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -43913,7 +43913,7 @@
       "HazardNN"
     ],
     "card_img": "E/Enzo Fernandez+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -44303,7 +44303,7 @@
       "Cahill"
     ],
     "card_img": "E/Enzo Fernandez+NakamuraN+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -55972,7 +55972,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Aguero+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -55983,7 +55983,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -56004,7 +56004,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -56025,7 +56025,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -56046,7 +56046,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -56426,7 +56426,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -56528,7 +56528,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+James Rodriguez+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -56688,7 +56688,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Kane+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -56800,7 +56800,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Lilian ThuramN+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -56951,7 +56951,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -56962,7 +56962,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -57105,7 +57105,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Modric+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -57348,7 +57348,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+ModricN+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -57509,7 +57509,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Narazaki+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -57670,7 +57670,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+Neuer+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -57829,7 +57829,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Neymar+Ronaldo+Ono+Cahill.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -57852,7 +57852,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Neymar+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -57943,7 +57943,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Ono+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -57954,7 +57954,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+Ono+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -57965,7 +57965,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Ono+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -58113,7 +58113,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -58180,7 +58180,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -58225,7 +58225,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+Rodri+Neuer+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -58316,7 +58316,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+Ronaldo+Aguero+Cahill.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -58448,7 +58448,7 @@
       "Cahill"
     ],
     "card_img": "G/Garcia+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -58606,7 +58606,7 @@
       "Diego Costa"
     ],
     "card_img": "G/Garcia+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -58617,7 +58617,7 @@
       "HazardNN"
     ],
     "card_img": "G/Garcia+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -73100,7 +73100,7 @@
       "Diego Costa"
     ],
     "card_img": "H/Haaland+Aguero+Diego Costa.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -73121,7 +73121,7 @@
       "Cahill"
     ],
     "card_img": "H/Haaland+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -73142,7 +73142,7 @@
       "Cahill"
     ],
     "card_img": "H/Haaland+Bommel+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -73163,7 +73163,7 @@
       "Diego Costa"
     ],
     "card_img": "H/Haaland+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -73730,7 +73730,7 @@
       "Cahill"
     ],
     "card_img": "H/Haaland+Massaro+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -73741,7 +73741,7 @@
       "HazardNN"
     ],
     "card_img": "H/Haaland+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -73941,7 +73941,7 @@
       "Diego Costa"
     ],
     "card_img": "H/Haaland+ModricN+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -74251,7 +74251,7 @@
       "Cahill"
     ],
     "card_img": "H/Haaland+Neymar+Bommel+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -74498,7 +74498,7 @@
       "HazardNN"
     ],
     "card_img": "H/Haaland+Raya+De Bruyne+James Rodriguez+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 450,
     "status": "available"
   },
   {
@@ -74531,7 +74531,7 @@
       "Diego Costa"
     ],
     "card_img": "H/Haaland+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -74542,7 +74542,7 @@
       "HazardNN"
     ],
     "card_img": "H/Haaland+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -74885,7 +74885,7 @@
       "HazardNN"
     ],
     "card_img": "H/Haaland+Unai Simon+De Bruyne+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -75371,7 +75371,7 @@
       "HazardNN"
     ],
     "card_img": "H/HaalandN+Mbappe+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 650,
     "status": "available"
   },
   {
@@ -75441,7 +75441,7 @@
       "Cahill"
     ],
     "card_img": "H/HaalandN+Mbappe+Ono+Cahill.png",
-    "price": 0,
+    "price": 440,
     "status": "available"
   },
   {
@@ -82092,7 +82092,7 @@
       "Diego Costa"
     ],
     "card_img": "I/Inzaghi+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -82410,7 +82410,7 @@
       "Diego Costa"
     ],
     "card_img": "I/Inzaghi+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -82794,7 +82794,7 @@
       "Cahill"
     ],
     "card_img": "I/Inzaghi+Seaman+Cahill.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -83110,7 +83110,7 @@
       "Cahill"
     ],
     "card_img": "J/James Rodriguez+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -83120,7 +83120,7 @@
       "Diego Costa"
     ],
     "card_img": "J/James Rodriguez+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -83130,7 +83130,7 @@
       "HazardNN"
     ],
     "card_img": "J/James Rodriguez+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -83187,7 +83187,7 @@
       "HazardNN"
     ],
     "card_img": "J/James Rodriguez+MessiN+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -83209,7 +83209,7 @@
       "HazardNN"
     ],
     "card_img": "J/James Rodriguez+MessiN+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -83362,7 +83362,7 @@
       "Cahill"
     ],
     "card_img": "J/James Rodriguez+Ronaldo+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -83384,7 +83384,7 @@
       "HazardNN"
     ],
     "card_img": "J/James Rodriguez+Ronaldo+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -83560,7 +83560,7 @@
       "Cahill"
     ],
     "card_img": "J/JudeNN+Cahill.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -83605,7 +83605,7 @@
       "HazardNN"
     ],
     "card_img": "J/JudeNN+Casemiro+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -83760,7 +83760,7 @@
       "Diego Costa"
     ],
     "card_img": "J/JudeNN+Diego Costa.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -83920,7 +83920,7 @@
       "Diego Costa"
     ],
     "card_img": "J/JudeNN+Garcia+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -83963,7 +83963,7 @@
       "HazardNN"
     ],
     "card_img": "J/JudeNN+HazardNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -84066,7 +84066,7 @@
       "Cahill"
     ],
     "card_img": "J/JudeNN+Kvaratskhelia+Seaman+Cahill.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -84236,7 +84236,7 @@
       "HazardNN"
     ],
     "card_img": "J/JudeNN+ModricN+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -88153,7 +88153,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Kane+Rice+Neymar+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 160,
     "status": "available"
   },
   {
@@ -92398,7 +92398,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -92461,7 +92461,7 @@
       "Diego Costa"
     ],
     "card_img": "K/KoemanN+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -92472,7 +92472,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -92627,7 +92627,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+James Rodriguez+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -93025,7 +93025,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -93216,7 +93216,7 @@
       "Diego Costa"
     ],
     "card_img": "K/KoemanN+ModricN+Aguero+Diego Costa.png",
-    "price": 0,
+    "price": 130,
     "status": "available"
   },
   {
@@ -93789,7 +93789,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+Ono+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -93956,7 +93956,7 @@
       "Diego Costa"
     ],
     "card_img": "K/KoemanN+Rice+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 150,
     "status": "available"
   },
   {
@@ -93978,7 +93978,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -94035,7 +94035,7 @@
       "Cahill"
     ],
     "card_img": "K/KoemanN+Rodri+ModricN+ReusN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -94288,7 +94288,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -94331,7 +94331,7 @@
       "HazardNN"
     ],
     "card_img": "K/KoemanN+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -94398,7 +94398,7 @@
       "Cahill"
     ],
     "card_img": "K/KoemanN+Unai Simon+James Rodriguez+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -97203,7 +97203,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Koller+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -97557,7 +97557,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Koller+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -98042,7 +98042,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Kvaratskhelia+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -98053,7 +98053,7 @@
       "HazardNN"
     ],
     "card_img": "K/Kvaratskhelia+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -98128,7 +98128,7 @@
       "Cahill"
     ],
     "card_img": "K/Kvaratskhelia+De Bruyne+CostaN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -98463,7 +98463,7 @@
       "Cahill"
     ],
     "card_img": "K/Kvaratskhelia+Massaro+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -98474,7 +98474,7 @@
       "HazardNN"
     ],
     "card_img": "K/Kvaratskhelia+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -98935,7 +98935,7 @@
       "Cahill"
     ],
     "card_img": "K/Kvaratskhelia+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -99055,7 +99055,7 @@
       "Cahill"
     ],
     "card_img": "K/Kvaratskhelia+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -99066,7 +99066,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Kvaratskhelia+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -99098,7 +99098,7 @@
       "HazardNN"
     ],
     "card_img": "K/Kvaratskhelia+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 370,
     "status": "available"
   },
   {
@@ -99119,7 +99119,7 @@
       "Diego Costa"
     ],
     "card_img": "K/Kvaratskhelia+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -99240,7 +99240,7 @@
       "Cahill"
     ],
     "card_img": "K/Kvaratskhelia+Vieira+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 470,
     "status": "available"
   },
   {
@@ -104384,7 +104384,7 @@
       "Cahill"
     ],
     "card_img": "L/Lilian ThuramN+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -104405,7 +104405,7 @@
       "HazardNN"
     ],
     "card_img": "L/Lilian ThuramN+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -104425,7 +104425,7 @@
       "Cahill"
     ],
     "card_img": "L/Lilian ThuramN+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -104436,7 +104436,7 @@
       "Cahill"
     ],
     "card_img": "L/Lilian ThuramN+CostaN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -104447,7 +104447,7 @@
       "HazardNN"
     ],
     "card_img": "L/Lilian ThuramN+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -104502,7 +104502,7 @@
       "HazardNN"
     ],
     "card_img": "L/Lilian ThuramN+De Bruyne+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -104549,7 +104549,7 @@
       "HazardNN"
     ],
     "card_img": "L/Lilian ThuramN+De Bruyne+Ono+HazardNN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -104847,7 +104847,7 @@
       "HazardNN"
     ],
     "card_img": "L/Lilian ThuramN+MessiN+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 650,
     "status": "available"
   },
   {
@@ -105472,7 +105472,7 @@
       "Cahill"
     ],
     "card_img": "L/Lilian ThuramN+ReusN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -106000,7 +106000,7 @@
       "Diego Costa"
     ],
     "card_img": "L/Lilian ThuramN+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -106811,7 +106811,7 @@
       "HazardNN"
     ],
     "card_img": "M/MaldiniN+Neymar+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -107351,7 +107351,7 @@
       "Cahill"
     ],
     "card_img": "M/Manzambi+Bouaddi+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -107420,7 +107420,7 @@
       "Cahill"
     ],
     "card_img": "M/Manzambi+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -107624,7 +107624,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Manzambi+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -107844,7 +107844,7 @@
       "HazardNN"
     ],
     "card_img": "M/Manzambi+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -107877,7 +107877,7 @@
       "Cahill"
     ],
     "card_img": "M/Manzambi+James Rodriguez+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -107888,7 +107888,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Manzambi+James Rodriguez+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -108187,7 +108187,7 @@
       "Cahill"
     ],
     "card_img": "M/Manzambi+Mbappe+Ono+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -108244,7 +108244,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Manzambi+MessiN+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -108366,7 +108366,7 @@
       "HazardNN"
     ],
     "card_img": "M/Manzambi+Neuer+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -109683,7 +109683,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -109694,7 +109694,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Mbappe+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -109705,7 +109705,7 @@
       "HazardNN"
     ],
     "card_img": "M/Mbappe+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -109802,7 +109802,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+De Bruyne+Ono+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -110047,7 +110047,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+Massaro+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -110058,7 +110058,7 @@
       "HazardNN"
     ],
     "card_img": "M/Mbappe+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -110135,7 +110135,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+MessiN+Massaro+Cahill.png",
-    "price": 0,
+    "price": 490,
     "status": "available"
   },
   {
@@ -110169,7 +110169,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+MessiN+ReusN+Cahill.png",
-    "price": 0,
+    "price": 490,
     "status": "available"
   },
   {
@@ -110316,7 +110316,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Mbappe+ModricN+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -110703,7 +110703,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+ReusN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -110714,7 +110714,7 @@
       "HazardNN"
     ],
     "card_img": "M/Mbappe+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -110757,7 +110757,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Mbappe+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -110966,7 +110966,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -111009,7 +111009,7 @@
       "Cahill"
     ],
     "card_img": "M/Mbappe+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -111108,7 +111108,7 @@
       "Diego Costa"
     ],
     "card_img": "M/Mbappe+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -111327,7 +111327,7 @@
       "Cahill"
     ],
     "card_img": "M/MbappeN+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -111482,7 +111482,7 @@
       "Cahill"
     ],
     "card_img": "M/MbappeN+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -111560,7 +111560,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MbappeN+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -111691,7 +111691,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MbappeN+Diego Costa.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -112018,7 +112018,7 @@
       "HazardNN"
     ],
     "card_img": "M/MbappeN+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -112422,7 +112422,7 @@
       "Cahill"
     ],
     "card_img": "M/MbappeN+Modric+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -112718,7 +112718,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MbappeN+Ronaldo+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 660,
     "status": "available"
   },
   {
@@ -112806,7 +112806,7 @@
       "Cahill"
     ],
     "card_img": "M/MbappeN+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -113117,7 +113117,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MessiN+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113138,7 +113138,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+Bommel+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113158,7 +113158,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -113169,7 +113169,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MessiN+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113189,7 +113189,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MessiN+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -113199,7 +113199,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -113210,7 +113210,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 520,
     "status": "available"
   },
   {
@@ -113310,7 +113310,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+Ono+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113375,7 +113375,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+ReusN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113386,7 +113386,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MessiN+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113397,7 +113397,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 520,
     "status": "available"
   },
   {
@@ -113451,7 +113451,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113462,7 +113462,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -113539,7 +113539,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+Ronaldo+Massaro+HazardNN.png",
-    "price": 0,
+    "price": 888,
     "status": "available"
   },
   {
@@ -113637,7 +113637,7 @@
       "Cahill"
     ],
     "card_img": "M/MessiN+RooneyN+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -113648,7 +113648,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -113691,7 +113691,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 520,
     "status": "available"
   },
   {
@@ -113756,7 +113756,7 @@
       "Diego Costa"
     ],
     "card_img": "M/MessiN+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -113767,7 +113767,7 @@
       "HazardNN"
     ],
     "card_img": "M/MessiN+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 520,
     "status": "available"
   },
   {
@@ -114682,7 +114682,7 @@
       "Cahill"
     ],
     "card_img": "M/ModricN+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -114692,7 +114692,7 @@
       "Diego Costa"
     ],
     "card_img": "M/ModricN+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -114702,7 +114702,7 @@
       "HazardNN"
     ],
     "card_img": "M/ModricN+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -114825,7 +114825,7 @@
       "Cahill"
     ],
     "card_img": "M/ModricN+MessiN+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -114956,7 +114956,7 @@
       "Diego Costa"
     ],
     "card_img": "M/ModricN+Ronaldo+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -114989,7 +114989,7 @@
       "Cahill"
     ],
     "card_img": "M/ModricN+Ronaldo+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -115067,7 +115067,7 @@
       "HazardNN"
     ],
     "card_img": "M/ModricN+Ronaldo+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 570,
     "status": "available"
   },
   {
@@ -118776,7 +118776,7 @@
       "Cahill"
     ],
     "card_img": "N/NakamuraN+Ono+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -118893,7 +118893,7 @@
       "HazardNN"
     ],
     "card_img": "N/NakamuraN+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -119287,7 +119287,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Nakata+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -119510,7 +119510,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Narazaki+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -119695,7 +119695,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Narazaki+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -119750,7 +119750,7 @@
       "HazardNN"
     ],
     "card_img": "N/Narazaki+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -120243,7 +120243,7 @@
       "HazardNN"
     ],
     "card_img": "N/Nedved+Cantona+Romero+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -122599,7 +122599,7 @@
       "Cahill"
     ],
     "card_img": "N/Neuer+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -122610,7 +122610,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neuer+De Bruyne+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -122674,7 +122674,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neuer+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -122684,7 +122684,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neuer+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -122695,7 +122695,7 @@
       "Cahill"
     ],
     "card_img": "N/Neuer+James Rodriguez+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -122761,7 +122761,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neuer+MessiN+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -122978,7 +122978,7 @@
       "Cahill"
     ],
     "card_img": "N/Neuer+Ronaldo+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -123000,7 +123000,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neuer+Ronaldo+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -123056,7 +123056,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neuer+Ronaldo+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -123090,7 +123090,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neuer+Ronaldo+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -123143,7 +123143,7 @@
       "Cahill"
     ],
     "card_img": "N/Neymar+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -123153,7 +123153,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neymar+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -123163,7 +123163,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neymar+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -123185,7 +123185,7 @@
       "Cahill"
     ],
     "card_img": "N/Neymar+James Rodriguez+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -123196,7 +123196,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neymar+James Rodriguez+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -123207,7 +123207,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neymar+James Rodriguez+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -123317,7 +123317,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neymar+MessiN+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -123426,7 +123426,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neymar+ModricN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -123524,7 +123524,7 @@
       "Cahill"
     ],
     "card_img": "N/Neymar+Ronaldo+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -123546,7 +123546,7 @@
       "Diego Costa"
     ],
     "card_img": "N/Neymar+Ronaldo+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -123557,7 +123557,7 @@
       "HazardNN"
     ],
     "card_img": "N/Neymar+Ronaldo+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -123591,7 +123591,7 @@
       "Cahill"
     ],
     "card_img": "N/Neymar+Ronaldo+ReusN+Cahill.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -128263,7 +128263,7 @@
       "Cahill"
     ],
     "card_img": "O/OliseN+Cahill.png",
-    "price": 0,
+    "price": 50,
     "status": "available"
   },
   {
@@ -128420,7 +128420,7 @@
       "Diego Costa"
     ],
     "card_img": "O/OliseN+Diego Costa.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -128590,7 +128590,7 @@
       "Diego Costa"
     ],
     "card_img": "O/OliseN+Garcia+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -128728,7 +128728,7 @@
       "HazardNN"
     ],
     "card_img": "O/OliseN+HazardNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -128751,7 +128751,7 @@
       "Diego Costa"
     ],
     "card_img": "O/OliseN+Inzaghi+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -129178,7 +129178,7 @@
       "Cahill"
     ],
     "card_img": "O/OliseN+Schweinsteiger+Massaro+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -130180,7 +130180,7 @@
       "Cahill"
     ],
     "card_img": "O/Oshea+De Bruyne+CostaN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -130524,7 +130524,7 @@
       "HazardNN"
     ],
     "card_img": "O/Oshea+James Rodriguez+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -132094,7 +132094,7 @@
       "Diego Costa"
     ],
     "card_img": "P/Paz+Ono+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -132368,7 +132368,7 @@
       "HazardNN"
     ],
     "card_img": "P/Paz+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -153676,7 +153676,7 @@
       "Cahill"
     ],
     "card_img": "R/Raya+Bommel+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -153885,7 +153885,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Raya+MessiN+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -154114,7 +154114,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Raya+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -154146,7 +154146,7 @@
       "Cahill"
     ],
     "card_img": "R/Raya+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -154302,7 +154302,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Raya+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -154401,7 +154401,7 @@
       "HazardNN"
     ],
     "card_img": "R/Raya+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -157916,7 +157916,7 @@
       "Cahill"
     ],
     "card_img": "R/Rice+Aguero+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -157937,7 +157937,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rice+BergkampN+Diego Costa.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -157958,7 +157958,7 @@
       "Cahill"
     ],
     "card_img": "R/Rice+Bommel+Cahill.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -157969,7 +157969,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rice+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -157990,7 +157990,7 @@
       "Cahill"
     ],
     "card_img": "R/Rice+CostaN+Cahill.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -158402,7 +158402,7 @@
       "Cahill"
     ],
     "card_img": "R/Rice+MessiN+Seaman+Cahill.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -158844,7 +158844,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rice+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -158865,7 +158865,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rice+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
@@ -159040,7 +159040,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rice+RooneyN+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -159620,7 +159620,7 @@
       "HazardNN"
     ],
     "card_img": "R/Rodri+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -159663,7 +159663,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Rodri+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -159707,7 +159707,7 @@
       "HazardNN"
     ],
     "card_img": "R/Rodri+Vitinha+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -162920,7 +162920,7 @@
       "HazardNN"
     ],
     "card_img": "R/Romero+YamalN+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -163861,7 +163861,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -163882,7 +163882,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -163903,7 +163903,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+Bommel+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -163933,7 +163933,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -163944,7 +163944,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+CostaN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -163955,7 +163955,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+CostaN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -163975,7 +163975,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+Diego Costa.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -163985,7 +163985,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+HazardNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -163996,7 +163996,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164017,7 +164017,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+Ono+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164028,7 +164028,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+Ono+HazardNN.png",
-    "price": 0,
+    "price": 570,
     "status": "available"
   },
   {
@@ -164049,7 +164049,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+ReusN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164060,7 +164060,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 570,
     "status": "available"
   },
   {
@@ -164081,7 +164081,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164092,7 +164092,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+Rijkaard+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164103,7 +164103,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 580,
     "status": "available"
   },
   {
@@ -164124,7 +164124,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 600,
     "status": "available"
   },
   {
@@ -164156,7 +164156,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164167,7 +164167,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164188,7 +164188,7 @@
       "Cahill"
     ],
     "card_img": "R/Ronaldo+Seaman+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164199,7 +164199,7 @@
       "Diego Costa"
     ],
     "card_img": "R/Ronaldo+Seaman+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -164210,7 +164210,7 @@
       "HazardNN"
     ],
     "card_img": "R/Ronaldo+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 570,
     "status": "available"
   },
   {
@@ -166772,7 +166772,7 @@
       "Cahill"
     ],
     "card_img": "R/Rossi+CostaN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -167270,7 +167270,7 @@
       "HazardNN"
     ],
     "card_img": "R/Rossi+Romero+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -167715,7 +167715,7 @@
       "Cahill"
     ],
     "card_img": "R/Roy+Bommel+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -173819,7 +173819,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schmeichel+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -173871,7 +173871,7 @@
       "Cahill"
     ],
     "card_img": "S/Schmeichel+CostaN+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -173893,7 +173893,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schmeichel+De Bruyne+Aguero+HazardNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -174140,7 +174140,7 @@
       "Cahill"
     ],
     "card_img": "S/Schmeichel+James Rodriguez+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -174206,7 +174206,7 @@
       "Cahill"
     ],
     "card_img": "S/Schmeichel+Massaro+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -174729,7 +174729,7 @@
       "Diego Costa"
     ],
     "card_img": "S/Schmeichel+Ono+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -174772,7 +174772,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schmeichel+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -174923,7 +174923,7 @@
       "Diego Costa"
     ],
     "card_img": "S/Schmeichel+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -174934,7 +174934,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schmeichel+ScholesN+HazardNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -175009,7 +175009,7 @@
       "Cahill"
     ],
     "card_img": "S/Schmeichel+Seaman+Cahill.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -175020,7 +175020,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schmeichel+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -178128,7 +178128,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schweinsteiger+BergkampN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -178570,7 +178570,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schweinsteiger+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -178645,7 +178645,7 @@
       "HazardNN"
     ],
     "card_img": "S/Schweinsteiger+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -181371,7 +181371,7 @@
       "Diego Costa"
     ],
     "card_img": "S/Suarez+Aguero+Diego Costa.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -181688,7 +181688,7 @@
       "Diego Costa"
     ],
     "card_img": "S/Suarez+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -181699,7 +181699,7 @@
       "HazardNN"
     ],
     "card_img": "S/Suarez+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 520,
     "status": "available"
   },
   {
@@ -183828,7 +183828,7 @@
       "Diego Costa"
     ],
     "card_img": "U/Unai Simon+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -184233,7 +184233,7 @@
       "Cahill"
     ],
     "card_img": "V/Vieira+James Rodriguez+MessiN+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 510,
     "status": "available"
   },
   {
@@ -184299,7 +184299,7 @@
       "Cahill"
     ],
     "card_img": "V/Vieira+Massaro+Cahill.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -184310,7 +184310,7 @@
       "Diego Costa"
     ],
     "card_img": "V/Vieira+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -184672,7 +184672,7 @@
       "HazardNN"
     ],
     "card_img": "V/Vieira+RooneyN+HazardNN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -184868,7 +184868,7 @@
       "Cahill"
     ],
     "card_img": "V/Vitinha+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -184900,7 +184900,7 @@
       "Cahill"
     ],
     "card_img": "V/Vitinha+Bommel+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -184954,7 +184954,7 @@
       "HazardNN"
     ],
     "card_img": "V/Vitinha+De Bruyne+CostaN+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -185263,7 +185263,7 @@
       "Cahill"
     ],
     "card_img": "V/Vitinha+Neuer+Massaro+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -185385,7 +185385,7 @@
       "Cahill"
     ],
     "card_img": "V/Vitinha+Neymar+ScholesN+Cahill.png",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
@@ -185417,7 +185417,7 @@
       "Diego Costa"
     ],
     "card_img": "V/Vitinha+ReusN+Diego Costa.png",
-    "price": 0,
+    "price": 70,
     "status": "available"
   },
   {
@@ -185438,7 +185438,7 @@
       "Cahill"
     ],
     "card_img": "V/Vitinha+Rijkaard+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
@@ -185568,7 +185568,7 @@
       "HazardNN"
     ],
     "card_img": "V/Vitinha+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -185678,7 +185678,7 @@
       "HazardNN"
     ],
     "card_img": "V/Vitinha+YamalN+Rijkaard+HazardNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -188869,7 +188869,7 @@
       "Diego Costa"
     ],
     "card_img": "Y/Yamal+Bommel+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -188880,7 +188880,7 @@
       "HazardNN"
     ],
     "card_img": "Y/Yamal+Bommel+HazardNN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -189127,7 +189127,7 @@
       "Cahill"
     ],
     "card_img": "Y/Yamal+James Rodriguez+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -189240,7 +189240,7 @@
       "Diego Costa"
     ],
     "card_img": "Y/Yamal+James Rodriguez+ScholesN+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -189262,7 +189262,7 @@
       "Diego Costa"
     ],
     "card_img": "Y/Yamal+Massaro+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -189662,7 +189662,7 @@
       "Diego Costa"
     ],
     "card_img": "Y/Yamal+Neymar+Aguero+Diego Costa.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -189795,7 +189795,7 @@
       "Diego Costa"
     ],
     "card_img": "Y/Yamal+Ono+Diego Costa.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -189806,7 +189806,7 @@
       "HazardNN"
     ],
     "card_img": "Y/Yamal+Ono+HazardNN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -189838,7 +189838,7 @@
       "HazardNN"
     ],
     "card_img": "Y/Yamal+ReusN+HazardNN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -189903,7 +189903,7 @@
       "Cahill"
     ],
     "card_img": "Y/Yamal+Ronaldo+BergkampN+Cahill.png",
-    "price": 0,
+    "price": 390,
     "status": "available"
   },
   {
@@ -190044,7 +190044,7 @@
       "Cahill"
     ],
     "card_img": "Y/Yamal+Seaman+Cahill.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -190055,7 +190055,7 @@
       "HazardNN"
     ],
     "card_img": "Y/Yamal+Seaman+HazardNN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -190153,7 +190153,7 @@
       "Cahill"
     ],
     "card_img": "Y/YamalN+Bommel+Cahill.png",
-    "price": 0,
+    "price": 60,
     "status": "available"
   },
   {
