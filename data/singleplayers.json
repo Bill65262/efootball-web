@@ -10,6 +10,11 @@
     "status": "available"
   },
   {
+    "name": "HazardNN",
+    "price": 150,
+    "status": "sold"
+  },
+  {
     "name": "HazardN",
     "price": 150,
     "status": "available"
@@ -148,6 +153,16 @@
     "name": "Inzaghi",
     "price": 50,
     "status": "available"
+  },
+  {
+    "name": "Cahill",
+    "price": 40,
+    "status": "sold"
+  },
+  {
+    "name": "Diego Costa",
+    "price": 50,
+    "status": "sold"
   },
   {
     "name": "MaldiniN",
@@ -873,20 +888,5 @@
     "name": "Baggio",
     "price": 50,
     "status": "available"
-  },
-  {
-    "name": "Cahill",
-    "price": 40,
-    "status": "sold"
-  },
-  {
-    "name": "Diego Costa",
-    "price": 50,
-    "status": "sold"
-  },
-  {
-    "name": "HazardNN",
-    "price": 150,
-    "status": "sold"
   }
 ]
