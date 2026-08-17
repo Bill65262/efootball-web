@@ -12,7 +12,7 @@
   {
     "name": "HazardNN",
     "price": 150,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "HazardN",
@@ -157,12 +157,12 @@
   {
     "name": "Cahill",
     "price": 40,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "Diego Costa",
     "price": 50,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "MaldiniN",
