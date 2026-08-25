@@ -2,16 +2,11 @@
   {
     "name": "Messi",
     "price": 200,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "MessiN",
     "price": 100,
-    "status": "available"
-  },
-  {
-    "name": "HazardNN",
-    "price": 150,
     "status": "available"
   },
   {
@@ -42,17 +37,12 @@
   {
     "name": "JudeNN",
     "price": 80,
-    "status": "available"
+    "status": "sold"
   },
   {
     "name": "Kvaratskhelia",
     "price": 100,
     "status": "available"
-  },
-  {
-    "name": "Gullit",
-    "price": 200,
-    "status": "sold"
   },
   {
     "name": "Vieira",
@@ -151,16 +141,6 @@
   },
   {
     "name": "Inzaghi",
-    "price": 50,
-    "status": "available"
-  },
-  {
-    "name": "Cahill",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "Diego Costa",
     "price": 50,
     "status": "available"
   },
@@ -347,7 +327,7 @@
   {
     "name": "Sneijder",
     "price": 40,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "Nedved",
@@ -655,9 +635,9 @@
     "status": "sold"
   },
   {
-    "name": "OliseN",
-    "price": 40,
-    "status": "sold"
+    "name": "Cunha",
+    "price": 100,
+    "status": "available"
   },
   {
     "name": "Romero",
@@ -675,21 +655,6 @@
     "status": "sold"
   },
   {
-    "name": "Manzambi",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "Bouaddi",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "Enzo Fernandez",
-    "price": 40,
-    "status": "available"
-  },
-  {
     "name": "Salah",
     "price": 50,
     "status": "available"
@@ -698,11 +663,6 @@
     "name": "YamalN",
     "price": 40,
     "status": "sold"
-  },
-  {
-    "name": "Cunha",
-    "price": 100,
-    "status": "available"
   },
   {
     "name": "Gyokeres",
@@ -888,5 +848,25 @@
     "name": "Baggio",
     "price": 50,
     "status": "available"
+  },
+  {
+    "name": "Bouaddi",
+    "price": 40,
+    "status": "sold"
+  },
+  {
+    "name": "Enzo Fernandez",
+    "price": 40,
+    "status": "available"
+  },
+  {
+    "name": "Manzambi",
+    "price": 40,
+    "status": "available"
+  },
+  {
+    "name": "OliseN",
+    "price": 40,
+    "status": "sold"
   }
 ]

@@ -652,10 +652,74 @@
       text-align: center;
       line-height: 1.5;
     }
+
+    /* ──────── ANNOUNCEMENT POPUP ──────── */
+    #announceOverlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.87);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #announceOverlay.hidden { display: none; }
+    #announcePanel {
+      background: var(--surf);
+      border: 2px solid #FF8EE2;
+      border-radius: 14px;
+      width: 100%;
+      max-width: 360px;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 8px 28px rgba(0,0,0,.6);
+    }
+    #announceHead {
+      background: #FF8EE2;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 12px 16px;
+      border-radius: 12px 12px 0 0;
+      text-align: center;
+    }
+    #announceBody {
+      padding: 18px 16px;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
+      white-space: pre-line;
+      text-align: center;
+    }
+    #announceClose {
+      display: block;
+      width: calc(100% - 32px);
+      margin: 0 16px 16px;
+      background: #FF8EE2;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    #announceClose:hover { opacity: .85; }
   </style>
 </head>
 <body>
 
+<!-- ── ANNOUNCEMENT POPUP ── -->
+<div id="announceOverlay" class="hidden">
+  <div id="announcePanel">
+    <div id="announceHead">📢 แจ้งข่าวสาร</div>
+    <div id="announceBody"></div>
+    <button id="announceClose">รับทราบ / ปิด</button>
+  </div>
+</div>
 
 <!-- ── TOP: sticky filter zone ── -->
 <div id="topZone">
@@ -1205,8 +1269,24 @@ function initEvents() {
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 }
 
+/* ── ANNOUNCEMENT POPUP ── */
+async function initAnnouncement() {
+  try {
+    const res = await fetch('data/announcement.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const a = await res.json();
+    if (!a.enabled) return;
+    document.getElementById('announceBody').textContent = a.message || '';
+    document.getElementById('announceOverlay').classList.remove('hidden');
+  } catch (e) { /* no announcement file yet — ignore */ }
+}
+document.getElementById('announceClose').addEventListener('click', () => {
+  document.getElementById('announceOverlay').classList.add('hidden');
+});
+
 /* ── INIT ── */
 (async () => {
+  initAnnouncement();
   await loadData();
   initEvents();
   initDivider();

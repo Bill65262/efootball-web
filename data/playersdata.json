@@ -14,13 +14,6 @@
     ]
   },
   {
-    "name": "HazardNN",
-    "card_img": "HazardNN.png",
-    "players": [
-      "HazardNN"
-    ]
-  },
-  {
     "name": "HazardN",
     "card_img": "HazardN.png",
     "players": [
@@ -67,13 +60,6 @@
     "card_img": "Kvaratskhelia.png",
     "players": [
       "Kvaratskhelia"
-    ]
-  },
-  {
-    "name": "Gullit",
-    "card_img": "Gullit.png",
-    "players": [
-      "Gullit"
     ]
   },
   {
@@ -214,20 +200,6 @@
     "card_img": "Inzaghi.png",
     "players": [
       "Inzaghi"
-    ]
-  },
-  {
-    "name": "Cahill",
-    "card_img": "Cahill.png",
-    "players": [
-      "Cahill"
-    ]
-  },
-  {
-    "name": "Diego Costa",
-    "card_img": "Diego Costa.png",
-    "players": [
-      "Diego Costa"
     ]
   },
   {
@@ -917,10 +889,10 @@
     ]
   },
   {
-    "name": "OliseN",
-    "card_img": "OliseN.png",
+    "name": "Cunha",
+    "card_img": "Cunha.png",
     "players": [
-      "OliseN"
+      "Cunha"
     ]
   },
   {
@@ -945,27 +917,6 @@
     ]
   },
   {
-    "name": "Manzambi",
-    "card_img": "Manzambi.png",
-    "players": [
-      "Manzambi"
-    ]
-  },
-  {
-    "name": "Bouaddi",
-    "card_img": "Bouaddi.png",
-    "players": [
-      "Bouaddi"
-    ]
-  },
-  {
-    "name": "Enzo Fernandez",
-    "card_img": "Enzo Fernandez.png",
-    "players": [
-      "Enzo Fernandez"
-    ]
-  },
-  {
     "name": "Salah",
     "card_img": "Salah.png",
     "players": [
@@ -977,13 +928,6 @@
     "card_img": "YamalN.png",
     "players": [
       "YamalN"
-    ]
-  },
-  {
-    "name": "Cunha",
-    "card_img": "Cunha.png",
-    "players": [
-      "Cunha"
     ]
   },
   {
@@ -1243,6 +1187,34 @@
     "card_img": "Baggio.png",
     "players": [
       "Baggio"
+    ]
+  },
+  {
+    "name": "Bouaddi",
+    "card_img": "Bouaddi.png",
+    "players": [
+      "Bouaddi"
+    ]
+  },
+  {
+    "name": "Enzo Fernandez",
+    "card_img": "Enzo Fernandez.png",
+    "players": [
+      "Enzo Fernandez"
+    ]
+  },
+  {
+    "name": "Manzambi",
+    "card_img": "Manzambi.png",
+    "players": [
+      "Manzambi"
+    ]
+  },
+  {
+    "name": "OliseN",
+    "card_img": "OliseN.png",
+    "players": [
+      "OliseN"
     ]
   }
 ]
