@@ -1,9 +1,23 @@
 [
   {
-    "name": "Messi",
-    "card_img": "Messi.png",
+    "name": "Del PieroN",
+    "card_img": "Del PieroN.png",
     "players": [
-      "Messi"
+      "Del PieroN"
+    ]
+  },
+  {
+    "name": "MbappeN",
+    "card_img": "MbappeN.png",
+    "players": [
+      "MbappeN"
+    ]
+  },
+  {
+    "name": "Ronaldo",
+    "card_img": "Ronaldo.png",
+    "players": [
+      "Ronaldo"
     ]
   },
   {
@@ -11,6 +25,34 @@
     "card_img": "MessiN.png",
     "players": [
       "MessiN"
+    ]
+  },
+  {
+    "name": "Suarez",
+    "card_img": "Suarez.png",
+    "players": [
+      "Suarez"
+    ]
+  },
+  {
+    "name": "Eto",
+    "card_img": "Eto.png",
+    "players": [
+      "Eto"
+    ]
+  },
+  {
+    "name": "Best",
+    "card_img": "Best.png",
+    "players": [
+      "Best"
+    ]
+  },
+  {
+    "name": "BaleN",
+    "card_img": "BaleN.png",
+    "players": [
+      "BaleN"
     ]
   },
   {
@@ -28,17 +70,10 @@
     ]
   },
   {
-    "name": "Ronaldo",
-    "card_img": "Ronaldo.png",
+    "name": "Vieira",
+    "card_img": "Vieira.png",
     "players": [
-      "Ronaldo"
-    ]
-  },
-  {
-    "name": "MbappeN",
-    "card_img": "MbappeN.png",
-    "players": [
-      "MbappeN"
+      "Vieira"
     ]
   },
   {
@@ -67,34 +102,6 @@
     "card_img": "Kvaratskhelia.png",
     "players": [
       "Kvaratskhelia"
-    ]
-  },
-  {
-    "name": "Gullit",
-    "card_img": "Gullit.png",
-    "players": [
-      "Gullit"
-    ]
-  },
-  {
-    "name": "Vieira",
-    "card_img": "Vieira.png",
-    "players": [
-      "Vieira"
-    ]
-  },
-  {
-    "name": "Suarez",
-    "card_img": "Suarez.png",
-    "players": [
-      "Suarez"
-    ]
-  },
-  {
-    "name": "Eto",
-    "card_img": "Eto.png",
-    "players": [
-      "Eto"
     ]
   },
   {
@@ -322,6 +329,13 @@
     ]
   },
   {
+    "name": "Schweinsteiger",
+    "card_img": "Schweinsteiger.png",
+    "players": [
+      "Schweinsteiger"
+    ]
+  },
+  {
     "name": "Puskas",
     "card_img": "Puskas.png",
     "players": [
@@ -333,13 +347,6 @@
     "card_img": "RooneyOld.png",
     "players": [
       "RooneyOld"
-    ]
-  },
-  {
-    "name": "Schweinsteiger",
-    "card_img": "Schweinsteiger.png",
-    "players": [
-      "Schweinsteiger"
     ]
   },
   {
@@ -459,6 +466,13 @@
     "card_img": "Cantona.png",
     "players": [
       "Cantona"
+    ]
+  },
+  {
+    "name": "CantonaN",
+    "card_img": "CantonaN.png",
+    "players": [
+      "CantonaN"
     ]
   },
   {
@@ -665,6 +679,13 @@
     ]
   },
   {
+    "name": "Rosicky",
+    "card_img": "Rosicky.png",
+    "players": [
+      "Rosicky"
+    ]
+  },
+  {
     "name": "Alonso",
     "card_img": "Alonso.png",
     "players": [
@@ -718,6 +739,13 @@
     "card_img": "Yaya.png",
     "players": [
       "Yaya"
+    ]
+  },
+  {
+    "name": "Puyol",
+    "card_img": "Puyol.png",
+    "players": [
+      "Puyol"
     ]
   },
   {
@@ -886,6 +914,13 @@
     "card_img": "Seaman.png",
     "players": [
       "Seaman"
+    ]
+  },
+  {
+    "name": "van der sar",
+    "card_img": "van der sar.png",
+    "players": [
+      "van der sar"
     ]
   },
   {
@@ -1246,52 +1281,17 @@
     ]
   },
   {
-    "name": "BaleN",
-    "card_img": "BaleN.png",
+    "name": "Messi",
+    "card_img": "Messi.png",
     "players": [
-      "BaleN"
+      "Messi"
     ]
   },
   {
-    "name": "Best",
-    "card_img": "Best.png",
+    "name": "Gullit",
+    "card_img": "Gullit.png",
     "players": [
-      "Best"
-    ]
-  },
-  {
-    "name": "CantonaN",
-    "card_img": "CantonaN.png",
-    "players": [
-      "CantonaN"
-    ]
-  },
-  {
-    "name": "Del PieroN",
-    "card_img": "Del PieroN.png",
-    "players": [
-      "Del PieroN"
-    ]
-  },
-  {
-    "name": "Puyol",
-    "card_img": "Puyol.png",
-    "players": [
-      "Puyol"
-    ]
-  },
-  {
-    "name": "Rosicky",
-    "card_img": "Rosicky.png",
-    "players": [
-      "Rosicky"
-    ]
-  },
-  {
-    "name": "van der sar",
-    "card_img": "van der sar.png",
-    "players": [
-      "van der sar"
+      "Gullit"
     ]
   }
 ]
