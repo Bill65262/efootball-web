@@ -891,37 +891,37 @@
   },
   {
     "name": "BaleN",
-    "price": 0,
-    "status": "available"
+    "price": 100,
+    "status": "sold"
   },
   {
     "name": "Best",
-    "price": 0,
-    "status": "available"
+    "price": 100,
+    "status": "sold"
   },
   {
     "name": "CantonaN",
-    "price": 0,
-    "status": "available"
+    "price": 40,
+    "status": "sold"
   },
   {
     "name": "Del PieroN",
-    "price": 0,
-    "status": "available"
+    "price": 150,
+    "status": "sold"
   },
   {
     "name": "Puyol",
-    "price": 0,
-    "status": "available"
+    "price": 40,
+    "status": "sold"
   },
   {
     "name": "Rosicky",
-    "price": 0,
-    "status": "available"
+    "price": 40,
+    "status": "sold"
   },
   {
     "name": "van der sar",
-    "price": 0,
-    "status": "available"
+    "price": 60,
+    "status": "sold"
   }
 ]
