@@ -1,4 +1,11 @@
 {
   "enabled": false,
-  "message": "ปิดร้านชั่วคราว\nขออภัยในความไม่สะดวก"
+  "message": "",
+  "popups": [
+    {
+      "type": "image",
+      "enabled": true,
+      "image": "img/popups/ChatGPT_Image_Sep_29_2026_01_01_56_AM_a6c4d80d.webp"
+    }
+  ]
 }
