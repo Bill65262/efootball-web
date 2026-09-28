@@ -189,6 +189,23 @@
       border: 2px solid var(--cyan);
       box-shadow: 0 0 16px rgba(0,229,255,.7), 0 4px 12px rgba(0,0,0,.5);
     }
+    /* แท็บที่ยังไม่ได้เลือก: สว่างพอให้รู้ว่ากดได้ (เดิม .6 จางจนลูกค้าคิดว่ากดไม่ได้) */
+    .tab:not(.active) { opacity: .9; }
+
+    /* ปุ่มไก่เดี่ยว/ไก่คู่ เด้งเข้า-เด้งออกตลอดเวลา สลับจังหวะกัน (ปุ่มนึงขยาย อีกปุ่มหด)
+       ปุ่มที่ยังไม่ได้เลือกเรืองแสงส้ม / ปุ่มที่เลือกอยู่เรืองแสงฟ้าเหมือนเดิม */
+    .tab { animation: tabBounce 1.6s ease-in-out infinite; }
+    .tab[data-mode="duo"] { animation-delay: -.8s; }
+    .tab.active { animation-name: tabBounceActive; }
+    /* ใช้ property "scale" (ไม่ใช่ transform) -> ตอนแตะ .tab:active { transform: scale(.95) } ยังยุบให้เห็นได้ */
+    @keyframes tabBounce {
+      0%, 100% { scale: 1;    box-shadow: 0 0 0 0 rgba(255,145,0,0),     0 4px 12px rgba(0,0,0,.5); }
+      50%      { scale: 1.04; box-shadow: 0 0 18px 4px rgba(255,145,0,.9), 0 4px 12px rgba(0,0,0,.5); }
+    }
+    @keyframes tabBounceActive {
+      0%, 100% { scale: 1;    box-shadow: 0 0 10px rgba(0,229,255,.5),       0 4px 12px rgba(0,0,0,.5); }
+      50%      { scale: 1.04; box-shadow: 0 0 20px 4px rgba(0,229,255,.9),   0 4px 12px rgba(0,0,0,.5); }
+    }
 
     .tabContent {
       display: none;
@@ -218,13 +235,42 @@
       flex-shrink: 0;
     }
 
+    #searchWrap {
+      flex: 1;
+      min-width: 0;
+      position: relative;
+      display: flex;
+    }
+    /* ปุ่มวงกลม ✕ ท้ายช่องค้นหา: ลบแค่คำค้นหา (โชว์เฉพาะตอนมีคำค้น) */
+    #searchClear {
+      position: absolute;
+      right: 7px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: none;
+      background: var(--muted);
+      color: var(--bg);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+      padding: 0;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #searchClear:hover { background: var(--text); }
+    #searchClear.hidden { display: none; }
+
     #searchInput {
       flex: 1;
       min-width: 0;
+      width: 100%;
       background: var(--surf2);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 7px 14px;
+      padding: 7px 32px 7px 14px;
       color: var(--text);
       font-size: 13px;
       outline: none;
@@ -261,6 +307,46 @@
     }
     .sortBtn:hover { color: var(--text); border-color: var(--muted); }
     .sortBtn.active { background: var(--gold); color: #000; border-color: var(--gold); font-weight: 700; }
+    .sortBtn:disabled,
+    .sortBtn:disabled:hover { opacity: .35; cursor: not-allowed; color: var(--muted); border-color: var(--border); }
+
+    /* ปุ่ม "ลดราคา": แดง-ส้ม มีแสงวิ่ง + เต้นเรืองแสง ให้เตะตา */
+    #promoBtn {
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      font-weight: 800;
+      border: 1px solid #ff5252;
+      background: linear-gradient(90deg, #ff1744, #ff6d00, #ff1744);
+      background-size: 200% 100%;
+      text-shadow: 0 1px 2px rgba(0,0,0,.4);
+      animation: promoFlow 2.5s linear infinite, promoPulse 1.2s ease-in-out infinite;
+    }
+    #promoBtn::after {                 /* แถบแสงวาบวิ่งผ่านปุ่ม */
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0;
+      left: -60%;
+      width: 40%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.55), transparent);
+      transform: skewX(-20deg);
+      animation: promoShine 2.2s ease-in-out infinite;
+    }
+    #promoBtn:hover { color: #fff; border-color: #fff; }
+    #promoBtn.active { border: 2px solid #fff; background: linear-gradient(90deg, #d50000, #ff3d00, #d50000); background-size: 200% 100%; }
+    #promoBtn:disabled { animation: none; background: var(--surf2); text-shadow: none; }
+    #promoBtn:disabled::after { display: none; }
+    @keyframes promoFlow  { from { background-position: 0% 0; } to { background-position: 200% 0; } }
+    @keyframes promoPulse {
+      0%, 100% { transform: scale(1);    box-shadow: 0 0 0 0 rgba(255,23,68,0); }
+      50%      { transform: scale(1.06); box-shadow: 0 0 12px 2px rgba(255,61,0,.8); }
+    }
+    @keyframes promoShine { 0% { left: -60%; } 60%, 100% { left: 130%; } }
+
+    /* คนที่ตั้งเครื่องให้ลดการเคลื่อนไหว -> ปิดแอนิเมชันเรียกสายตา */
+    @media (prefers-reduced-motion: reduce) {
+      #promoBtn, #promoBtn::after, .tab { animation: none; }
+    }
 
     #countBadge {
       display: none;
@@ -653,6 +739,122 @@
       line-height: 1.5;
     }
 
+    /* ──────── STORE-WIDE SALE ──────── */
+    #saleBar {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4px 8px;
+      padding: 6px 10px;
+      background: linear-gradient(90deg, #ff1744, #ff9100);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+    }
+    #saleBar.hidden { display: none; }
+    .saleTime {
+      font-variant-numeric: tabular-nums;
+      background: rgba(0,0,0,.28);
+      border-radius: 6px;
+      padding: 2px 8px;
+      white-space: nowrap;
+    }
+    /* ราคาเดิม (ขีดฆ่า) กับราคาลด สลับกันไปมา */
+    .pSale { display: inline-grid; justify-items: start; }
+    .fPrice .pSale { justify-items: center; }
+    .pSale > span { grid-area: 1 / 1; animation: saleFlip 2.4s infinite; white-space: nowrap; }
+    .pSale .pOld  { color: var(--muted); text-decoration: line-through; }
+    .pSale .pNew  { color: #ff5252; animation-delay: -1.2s; }
+    /* ราคาเดิมหายหมดก่อน ราคาใหม่ค่อยขึ้น (ไม่เหลื่อมกัน ตัวใหญ่ในหน้ารายละเอียดจะได้ไม่ซ้อนอ่านไม่ออก) */
+    @keyframes saleFlip {
+      0%        { opacity: 0; transform: translateY(3px); }
+      5%, 42%   { opacity: 1; transform: none; }
+      47%, 100% { opacity: 0; transform: translateY(-3px); }
+    }
+
+    /* ──────── ป้ายสัญชาติไอดี (บราซิล / ไทย) ──────── */
+    .idFlag { width: 18px; height: 13px; flex-shrink: 0; vertical-align: -2px; }
+    .brBadge, .thBadge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin: 2px 0 8px;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .brBadge {
+      background: linear-gradient(90deg, #009c3b, #00c853);
+      border: 1px solid #ffdf00;
+      color: #ffdf00;
+      box-shadow: 0 0 10px rgba(0,200,83,.5);
+    }
+    .thBadge {                       /* สีธงไทย: น้ำเงินเข้ม ขอบขาว */
+      background: linear-gradient(90deg, #2d2a4a, #3d3a8c);
+      border: 1px solid #f4f5f8;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(165,25,49,.55);
+    }
+    .brText, .thText { font-weight: 800; white-space: nowrap; }
+    .brText { color: #ffdf00; }
+    .thText { color: #fff; }
+    .brText .idFlag, .thText .idFlag { width: 16px; height: 11px; margin-right: 3px; }
+
+    /* ป๊อปอัพเล็กเด้งขึ้นตอนเปิดดูไอดีบราซิล (หายเองใน 3 วิ หรือแตะปิด) */
+    #brToast {
+      position: fixed;
+      left: 50%;
+      top: 30%;
+      z-index: 950;
+      width: max-content;
+      max-width: calc(100vw - 48px);
+      padding: 14px 22px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #009c3b, #00a846);
+      border: 2px solid #ffdf00;
+      box-shadow: 0 8px 28px rgba(0,0,0,.6), 0 0 22px rgba(255,223,0,.45);
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      transform: translate(-50%, -50%) scale(.5);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .2s, transform .2s;
+    }
+    #brToast.show {
+      opacity: 1;
+      pointer-events: auto;
+      animation: brPop .45s cubic-bezier(.2, 1.6, .4, 1) forwards;
+    }
+    #brToast .idFlag { width: 42px; height: 30px; display: block; margin: 0 auto 6px; }
+    #brToast .brTitle { font-size: 20px; font-weight: 900; color: #ffdf00; text-shadow: 0 2px 4px rgba(0,0,0,.4); }
+    #brToast .brSub { font-size: 12px; margin-top: 4px; opacity: .95; }
+    @keyframes brPop {
+      0%   { transform: translate(-50%, -50%) scale(.5); }
+      100% { transform: translate(-50%, -50%) scale(1); }
+    }
+    .mSaleBadge {
+      display: inline-block;
+      margin-left: 6px;
+      background: #ff1744;
+      color: #fff;
+      border-radius: 4px;
+      padding: 0 6px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .mSaleLeft {
+      margin: -6px 0 12px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ff9100;
+      font-variant-numeric: tabular-nums;
+    }
+
     /* ──────── ANNOUNCEMENT POPUP ──────── */
     #announceOverlay {
       position: fixed;
@@ -708,6 +910,39 @@
       cursor: pointer;
     }
     #announceClose:hover { opacity: .85; }
+    /* ป๊อบอัพแบบรูป: แสดงรูปอย่างเดียว แตะตรงไหนของรูปก็ปิด */
+    #announceImg {
+      display: block;
+      max-width: min(92vw, 480px);
+      max-height: 85vh;
+      width: auto;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.6);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #announcePanel.hidden, #announceImg.hidden { display: none; }
+    /* วงกลมหมุนระหว่างรอรูปป๊อบอัพโหลด (แตะพื้นมืดเพื่อข้ามได้) */
+    #announceSpin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,.75);
+      font-size: 12px;
+    }
+    #announceSpin::before {
+      content: '';
+      width: 42px;
+      height: 42px;
+      border: 4px solid rgba(255,255,255,.2);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: announceSpin .8s linear infinite;
+    }
+    #announceSpin.hidden { display: none; }
+    @keyframes announceSpin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
@@ -715,13 +950,24 @@
 <!-- ── ANNOUNCEMENT POPUP ── -->
 <div id="announceOverlay" class="hidden">
   <div id="announcePanel">
-    <div id="announceHead">📢 แจ้งข่าวสาร</div>
+    <div id="announceHead">📢 แจ้งข่าวสาร <span id="announceCount"></span></div>
     <div id="announceBody"></div>
     <button id="announceClose">รับทราบ / ปิด</button>
   </div>
+  <img id="announceImg" class="hidden" alt="ประกาศ">
+  <div id="announceSpin" class="hidden">กำลังโหลด… แตะเพื่อข้าม</div>
 </div>
 
 <!-- ── TOP: sticky filter zone ── -->
+<!-- ── ป๊อปอัพเล็ก "ไอดีบราซิล" (ตอนเปิดดูรายละเอียดไอดีบราซิล) ── -->
+<div id="brToast" role="status" aria-live="polite"></div>
+
+<!-- ── SALE BAR (แสดงเฉพาะตอนมีลดราคา) ── -->
+<div id="saleBar" class="hidden">
+  <span id="saleText"></span>
+  <span class="saleTime" id="saleTime"></span>
+</div>
+
 <div id="topZone">
   <div id="tabs">
     <div class="tabInfo">
@@ -758,9 +1004,14 @@
     </div>
   </div>
   <div id="searchRow">
-    <input id="searchInput" type="text" placeholder="🔍 ค้นหานักเตะ..." autocomplete="off" spellcheck="false">
-    <button class="sortBtn" id="sortDesc">↓ ราคา</button>
-    <button class="sortBtn" id="sortAsc">↑ ราคา</button>
+    <div id="searchWrap">
+      <input id="searchInput" type="text" placeholder="🔍 ค้นหานักเตะ..." autocomplete="off" spellcheck="false">
+      <button id="searchClear" class="hidden" type="button" aria-label="ลบคำค้นหา">✕</button>
+    </div>
+    <!-- ลดราคา: ไอดีบราซิลขึ้นก่อน (กดซ้ำ/✕ ล้าง = ยกเลิก) — ช่วงลดทั้งร้านกดไม่ได้ -->
+    <button class="sortBtn" id="promoBtn">🔥 ลดราคา</button>
+    <!-- ปุ่มเดียว: กดครั้งแรก แพง→ถูก, กดอีก ถูก→แพง สลับไปเรื่อยๆ (กลับค่าเริ่มต้นด้วย ✕ ล้าง) -->
+    <button class="sortBtn" id="sortBtn">⇅ ราคา</button>
     <button id="clearBtn">✕ ล้าง</button>
     <span id="countBadge">—</span>
   </div>
@@ -823,8 +1074,147 @@ let mode      = 'single';
 let selected  = new Set();
 let query     = '';
 let sortOrder = 'default';
+let promoFirst = false;   // ปุ่ม "ลดราคา": ไอดีบราซิลขึ้นก่อน
 let page      = 1;
 let filtered  = [];
+
+/* ── STORE-WIDE SALE ──
+   data/discount.json = { enabled, percent, ends_at_ms } ตั้งจาก Manager
+   ราคาจริงใน json ไม่ถูกแก้ — ลดเฉพาะตอนแสดงผล และกลับเป็นราคาเดิมเองทันทีที่หมดเวลา
+   เวลาใช้ของเซิร์ฟเวอร์ (header Date) ไม่ใช่นาฬิกาเครื่องลูกค้า -> ทุกคนหมดเวลาพร้อมกัน */
+let sale        = null;   // { percent, startMs, endsMs }
+let saleWasActive = false; // สถานะตอน tick ก่อน -> รู้ว่าเพิ่งเริ่ม/เพิ่งหมด จะได้วาดราคาใหม่
+let clockOffset = 0;      // เวลาเซิร์ฟเวอร์ - เวลาเครื่องลูกค้า (ms)
+let modalId     = null;
+const nowMs = () => Date.now() + clockOffset;
+
+function saleActive() { return !!sale && nowMs() >= sale.startMs && nowMs() < sale.endsMs; }
+
+/* ── ไอดีบราซิล ──
+   data/brazil.json = { players: [...], percent } ตั้งจาก Manager
+   ไอดีที่มีนักเตะในรายชื่อ (ไก่เดี่ยวหรือคอมโบ) ลดถาวร และลดซ้อนกับลดราคาทั้งร้านได้ */
+let brazilSet = new Set();
+let brazilPct = 0;
+
+async function loadBrazil() {
+  try {
+    const res = await fetch('data/brazil.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const b = await res.json();
+    if (b.percent > 0 && Array.isArray(b.players)) {
+      brazilSet = new Set(b.players);
+      brazilPct = b.percent;
+    }
+  } catch (e) { /* ไม่มีไฟล์ = ไม่มีไอดีบราซิล */ }
+}
+
+function isBrazil(p) { return brazilPct > 0 && (p.players || []).some(n => brazilSet.has(n)); }
+
+// ธงบราซิลเป็น SVG (อีโมจิ 🇧🇷 บน Windows จะขึ้นเป็นตัวอักษร BR)
+const BR_FLAG = '<svg class="idFlag" viewBox="0 0 20 14" aria-hidden="true">' +
+  '<rect width="20" height="14" rx="2" fill="#009c3b"/>' +
+  '<path d="M10 1.6 18.4 7 10 12.4 1.6 7z" fill="#ffdf00"/>' +
+  '<circle cx="10" cy="7" r="3.1" fill="#002776"/></svg>';
+// ธงไทย: แดง-ขาว-น้ำเงิน(หนา 2 เท่า)-ขาว-แดง
+const TH_FLAG = '<svg class="idFlag" viewBox="0 0 20 14" aria-hidden="true">' +
+  '<rect width="20" height="14" rx="2" fill="#a51931"/>' +
+  '<rect y="2.33" width="20" height="9.34" fill="#f4f5f8"/>' +
+  '<rect y="4.67" width="20" height="4.66" fill="#2d2a4a"/></svg>';
+
+let brToastTimer = null;
+function showBrToast() {
+  const t = document.getElementById('brToast');
+  t.innerHTML = `${BR_FLAG}<div class="brTitle">ไอดีบราซิล</div>` +
+                `<div class="brSub">ไอดีนี้ไม่ใช่ไอดีไทย · ลดราคาพิเศษ ${brazilPct}%</div>`;
+  t.classList.remove('show');
+  void t.offsetWidth;                    // เริ่มแอนิเมชันเด้งใหม่ทุกครั้งที่เปิด
+  t.classList.add('show');
+  clearTimeout(brToastTimer);
+  brToastTimer = setTimeout(hideBrToast, 3000);
+}
+function hideBrToast() {
+  clearTimeout(brToastTimer);
+  document.getElementById('brToast').classList.remove('show');
+}
+
+// ปุ่ม "ลดราคา" มีผลเฉพาะช่วงปกติ — ช่วงลดทั้งร้านทุกไอดีลดอยู่แล้ว ปุ่มจึงกดไม่ได้
+function promoAvailable() { return brazilPct > 0 && !saleActive(); }
+function promoActive() { return promoFirst && promoAvailable(); }
+function updatePromoBtn() {
+  const btn = document.getElementById('promoBtn');
+  btn.disabled = !promoAvailable();
+  btn.classList.toggle('active', promoActive());
+}
+
+// ส่วนลดที่ใช้กับไอดีนี้ตอนนี้ ตามลำดับที่ลดซ้อนกัน (บราซิลก่อน แล้วค่อยลดทั้งร้าน)
+function discountsFor(p) {
+  const out = [];
+  if (isBrazil(p)) out.push(brazilPct);
+  if (saleActive()) out.push(sale.percent);
+  return out;
+}
+
+// ราคาหลังลดทุกชั้น (ปัดเป็นบาทเต็มทีละชั้น)
+function finalPrice(p) {
+  return discountsFor(p).reduce((price, pct) => Math.round(price * (100 - pct) / 100), p.price || 0);
+}
+
+// % ลดรวม สำหรับป้าย เช่น 50% แล้ว 10% = ลด 55%
+function totalPct(p) {
+  const keep = discountsFor(p).reduce((k, pct) => k * (100 - pct) / 100, 1);
+  return Math.round((1 - keep) * 100);
+}
+
+// แสดงแค่ราคาเดิม (ขีดฆ่า) กับราคาสุดท้าย สลับกัน — ไม่แสดงราคาขั้นกลาง
+function priceHTML(p) {
+  if (!p || !p.price) return '';
+  if (!discountsFor(p).length) return `${p.price} บาท`;
+  return `<span class="pSale"><span class="pOld">${p.price} บาท</span>` +
+         `<span class="pNew">${finalPrice(p)} บาท</span></span>`;
+}
+
+async function loadSale() {
+  try {
+    const res = await fetch('data/discount.json', { cache: 'no-store' });
+    const server = Date.parse(res.headers.get('Date'));
+    if (!isNaN(server)) clockOffset = server - Date.now();
+    if (!res.ok) return;
+    const d = await res.json();
+    if (d.enabled && d.percent > 0 && d.ends_at_ms > nowMs())
+      sale = { percent: d.percent, startMs: d.starts_at_ms || 0, endsMs: d.ends_at_ms };
+  } catch (e) { /* ไม่มีไฟล์ = ไม่มีลดราคา */ }
+  saleWasActive = saleActive();
+}
+
+function fmtLeft(ms) {
+  const s = Math.floor(ms / 1000);
+  const d = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600),
+        m = Math.floor(s % 3600 / 60), sec = s % 60;
+  const pad = n => String(n).padStart(2, '0');
+  return (d ? `${d} วัน ` : '') + `${pad(h)} ชม. ${pad(m)} นาที ${pad(sec)} วินาที`;
+}
+
+function tickSale() {
+  const bar = document.getElementById('saleBar');
+  const active = saleActive();
+  if (active !== saleWasActive) {
+    // เพิ่งถึงเวลาเริ่ม หรือเพิ่งหมดเวลา -> วาดราคาใหม่ทั้งหน้า (ไม่ต้องรีเฟรช)
+    saleWasActive = active;
+    if (active) promoFirst = false;   // เริ่มลดทั้งร้าน -> ปุ่มลดราคากลับเป็นปิด (ไม่ค้างไว้ไปเปิดเองตอนจบ)
+    updatePromoBtn();
+    renderFilters();
+    runFilter();
+    if (!document.getElementById('modal').classList.contains('hidden') && modalId !== null) openModal(modalId, true);
+  }
+  if (sale && nowMs() >= sale.endsMs) sale = null;
+  if (!active) { bar.classList.add('hidden'); return; }   // ก่อนเริ่ม/หลังหมด: ไม่แสดงอะไรเลย
+  const left = sale.endsMs - nowMs();
+  document.getElementById('saleText').textContent = 'ลดราคาทุกไอดี เหลือเวลา';
+  document.getElementById('saleTime').textContent = fmtLeft(left);
+  bar.classList.remove('hidden');
+  const mLeft = document.getElementById('mSaleLeft');
+  if (mLeft) mLeft.textContent = `⏰ ส่วนลดหมดในอีก ${fmtLeft(left)}`;
+}
 
 /* ── HELPERS ── */
 function imgURL(base, filename) {
@@ -907,8 +1297,12 @@ function computeFiltered() {
     });
   }
 
-  if (sortOrder === 'price_desc') res = [...res].sort((a, b) => b.price - a.price);
-  else if (sortOrder === 'price_asc') res = [...res].sort((a, b) => a.price - b.price);
+  // เรียงตามราคาที่ลูกค้าจ่ายจริง (ไอดีบราซิลลดคนละแบบกับไอดีอื่น ลำดับจึงเปลี่ยนได้)
+  if (sortOrder === 'price_desc') res = [...res].sort((a, b) => finalPrice(b) - finalPrice(a));
+  else if (sortOrder === 'price_asc') res = [...res].sort((a, b) => finalPrice(a) - finalPrice(b));
+
+  // ไอดีบราซิลขึ้นก่อน ที่เหลือต่อท้าย (ในแต่ละกลุ่มยังเรียงตามปุ่มราคาเหมือนเดิม)
+  if (promoActive()) res = [...res.filter(isBrazil), ...res.filter(p => !isBrazil(p))];
 
   return res;
 }
@@ -951,10 +1345,15 @@ function renderFilters() {
 
   if (mode === 'single' && sortOrder !== 'default') {
     tags = [...tags].sort((a, b) => {
-      const pa = allItems.find(p => p.type === 'single' && p.name === a)?.price ?? 0;
-      const pb = allItems.find(p => p.type === 'single' && p.name === b)?.price ?? 0;
+      const ia = allItems.find(p => p.type === 'single' && p.name === a);
+      const ib = allItems.find(p => p.type === 'single' && p.name === b);
+      const pa = ia ? finalPrice(ia) : 0;
+      const pb = ib ? finalPrice(ib) : 0;
       return sortOrder === 'price_desc' ? pb - pa : pa - pb;
     });
+  }
+  if (mode === 'single' && promoActive()) {
+    tags = [...tags.filter(t => brazilSet.has(t)), ...tags.filter(t => !brazilSet.has(t))];
   }
 
   tags.forEach(tag => {
@@ -980,7 +1379,7 @@ function renderFilters() {
       const item = allItems.find(p => p.type === 'single' && p.name === tag);
       const pEl = document.createElement('div');
       pEl.className = 'fPrice';
-      pEl.textContent = item?.price ? item.price + ' บาท' : '';
+      pEl.innerHTML = priceHTML(item);
       btn.append(imgWrap, pEl, lbl);
     } else {
       btn.append(imgWrap, lbl);
@@ -1007,8 +1406,15 @@ function toggleTag(tag, btn) {
 }
 
 function updateSortBtns() {
-  document.getElementById('sortDesc').classList.toggle('active', sortOrder === 'price_desc');
-  document.getElementById('sortAsc').classList.toggle('active', sortOrder === 'price_asc');
+  const btn = document.getElementById('sortBtn');
+  btn.classList.toggle('active', sortOrder !== 'default');
+  btn.textContent = sortOrder === 'price_desc' ? '↓ แพง→ถูก'
+                  : sortOrder === 'price_asc'  ? '↑ ถูก→แพง'
+                  : '⇅ ราคา';
+}
+
+function syncSearchClear() {
+  document.getElementById('searchClear').classList.toggle('hidden', !document.getElementById('searchInput').value);
 }
 
 /* ── RENDER GRID ── */
@@ -1036,7 +1442,7 @@ function createCard(p) {
   info.className = 'card-info';
   info.innerHTML =
     `<div class="cName">${dName}</div>` +
-    (p.price ? `<div class="cPrice">${p.price} บาท</div>` : '');
+    (p.price ? `<div class="cPrice">${priceHTML(p)}</div>` : '');
 
   card.append(imgWrap, info);
   card.addEventListener('click', () => openModal(p.id));
@@ -1076,9 +1482,18 @@ function runFilter(reset = true) {
 }
 
 /* ── MODAL ── */
-function openModal(id) {
+// refresh = วาดใหม่เพราะลดราคาเพิ่งเริ่ม/หมด ขณะเปิดค้างไว้ -> ไม่เลื่อนกลับบนสุด ไม่เด้งป๊อปอัพบราซิลซ้ำ
+function openModal(id, refresh = false) {
   const p = allItems.find(x => x.id === id);
   if (!p) return;
+  modalId = id;
+  const discPct = p.price ? totalPct(p) : 0;       // ลดรวม (บราซิล + ลดทั้งร้าน)
+  const onSale  = saleActive() && p.price;         // มีนับถอยหลังเฉพาะตอนลดทั้งร้าน
+  const brazil  = isBrazil(p);
+  const idKind  = brazil ? `<span class="brText">${BR_FLAG}ไอดีบราซิล</span>`
+                         : `<span class="thText">${TH_FLAG}ไอดีไทย</span>`;
+  const idBadge = brazil ? `<div class="brBadge">${BR_FLAG}ไอดีบราซิล</div>`
+                         : `<div class="thBadge">${TH_FLAG}ไอดีไทย</div>`;
 
   const mImg  = document.getElementById('mImg');
   const isSingle = p.type === 'single';
@@ -1092,8 +1507,8 @@ function openModal(id) {
     : '0 0 28px rgba(255,145,0,.5), 0 0 8px rgba(255,145,0,.2)';
 
   const desc = isSingle
-    ? ['ทุกไอดี ยังไม่ผูกเมล ไอดีไทย', 'มีแค่นักเตะคนนี้ คนเดียวในทีม', 'ทุกไอดีสามารถกลางได้']
-    : ['ไก่ 0 เกม ยังไม่ผูกเมล ไอดีไทย', 'ทุกไอดีสามารถกลางได้'];
+    ? [`ทุกไอดี ยังไม่ผูกเมล ${idKind}`, 'มีแค่นักเตะคนนี้ คนเดียวในทีม', 'ทุกไอดีสามารถกลางได้']
+    : [`ไก่ 0 เกม ยังไม่ผูกเมล ${idKind}`, 'ทุกไอดีสามารถกลางได้'];
 
   const mDName = (p.players && p.players.length > 1)
     ? p.players.map(pl => displayName(pl)).join('+')
@@ -1101,9 +1516,10 @@ function openModal(id) {
 
   document.getElementById('mBody').innerHTML =
     `<div class="mName">${mDName}</div>
-     <div class="mPriceLabel">ราคา</div>
+     ${idBadge}
+     <div class="mPriceLabel">ราคา${discPct ? `<span class="mSaleBadge">ลด ${discPct}%</span>` : ''}</div>
      <div class="mPriceRow">
-       <div class="mPrice">${p.price ? p.price + ' บาท' : 'ติดต่อสอบถาม'}</div>
+       <div class="mPrice">${p.price ? priceHTML(p) : 'ติดต่อสอบถาม'}</div>
        <div class="msgBtnWrap">
          <div class="pageGroup">
            <div class="pageLabel">Facebook หลัก<small>Mook Mook</small></div>
@@ -1157,16 +1573,21 @@ function openModal(id) {
          </div>
        </div>
      </div>
+     ${onSale ? '<div class="mSaleLeft" id="mSaleLeft"></div>' : ''}
      ${desc.length
        ? `<div class="mDescTitle">รายละเอียดไอดี</div>
           <ul class="mDescList">${desc.map(d => `<li>${d}</li>`).join('')}</ul>`
        : ''}`;
 
   document.getElementById('modal').classList.remove('hidden');
-  document.getElementById('modalPanel').scrollTop = 0;
+  if (!refresh) document.getElementById('modalPanel').scrollTop = 0;
+  if (onSale) tickSale();   // เติมเวลานับถอยหลังทันที ไม่ต้องรอวินาทีถัดไป
+  if (!brazil) hideBrToast();
+  else if (!refresh) showBrToast();
 }
 
 function closeModal() {
+  hideBrToast();
   document.getElementById('modal').classList.add('hidden');
 }
 
@@ -1212,6 +1633,7 @@ function initEvents() {
       selected.clear();
       query = '';
       document.getElementById('searchInput').value = '';
+      syncSearchClear();
       renderFilters();
       runFilter();
     });
@@ -1220,19 +1642,32 @@ function initEvents() {
   /* search */
   document.getElementById('searchInput').addEventListener('input', e => {
     query = e.target.value.toLowerCase().trim();
+    syncSearchClear();
     renderFilters();
     runFilter(true);
   });
 
-  /* sort */
-  document.getElementById('sortDesc').addEventListener('click', () => {
-    sortOrder = sortOrder === 'price_desc' ? 'default' : 'price_desc';
-    updateSortBtns();
+  /* ✕ ท้ายช่องค้นหา: ลบแค่คำค้นหา — นักเตะ/คอมโบที่เลือกไว้ และการเรียงราคา ยังอยู่ */
+  document.getElementById('searchClear').addEventListener('click', () => {
+    const input = document.getElementById('searchInput');
+    input.value = '';
+    query = '';
+    syncSearchClear();
+    renderFilters();
+    runFilter(true);
+  });
+
+  /* ลดราคา: ไอดีบราซิลขึ้นก่อน / กดซ้ำ = ยกเลิก */
+  document.getElementById('promoBtn').addEventListener('click', () => {
+    promoFirst = !promoFirst;
+    updatePromoBtn();
     renderFilters();
     runFilter();
   });
-  document.getElementById('sortAsc').addEventListener('click', () => {
-    sortOrder = sortOrder === 'price_asc' ? 'default' : 'price_asc';
+
+  /* sort: แพง→ถูก ครั้งแรก แล้วสลับ ถูก→แพง / แพง→ถูก ไปเรื่อยๆ */
+  document.getElementById('sortBtn').addEventListener('click', () => {
+    sortOrder = sortOrder === 'price_desc' ? 'price_asc' : 'price_desc';
     updateSortBtns();
     renderFilters();
     runFilter();
@@ -1244,8 +1679,11 @@ function initEvents() {
     selected.clear();
     query = '';
     sortOrder = 'default';
+    promoFirst = false;
     document.getElementById('searchInput').value = '';
+    syncSearchClear();
     updateSortBtns();
+    updatePromoBtn();
     renderFilters();
     runFilter();
   });
@@ -1263,6 +1701,7 @@ function initEvents() {
 
   /* modal close */
   document.getElementById('mClose').addEventListener('click', closeModal);
+  document.getElementById('brToast').addEventListener('click', hideBrToast);
   document.getElementById('modal').addEventListener('click', e => {
     if (e.target === document.getElementById('modal')) closeModal();
   });
@@ -1275,19 +1714,70 @@ async function initAnnouncement() {
     const res = await fetch('data/announcement.json', { cache: 'no-store' });
     if (!res.ok) return;
     const a = await res.json();
-    if (!a.enabled) return;
-    document.getElementById('announceBody').textContent = a.message || '';
-    document.getElementById('announceOverlay').classList.remove('hidden');
+    // รูปแบบใหม่มี popups[] (หลายอัน) — รูปแบบเก่ามีแค่ enabled/message
+    const list = Array.isArray(a.popups) ? a.popups : [a];
+    announceQueue = list.filter(p => p.enabled &&
+      (p.type === 'image' ? !!p.image : (p.message || '').trim()));
+    announceTotal = announceQueue.length;
+    // เริ่มโหลดรูปป๊อบอัพทุกอันไว้ก่อน -> อันที่ 2, 3 ขึ้นทันทีไม่ต้องรอ
+    announceQueue.filter(p => p.type === 'image').forEach(p => { new Image().src = p.image; });
+    showNextAnnouncement();
   } catch (e) { /* no announcement file yet — ignore */ }
 }
-document.getElementById('announceClose').addEventListener('click', () => {
-  document.getElementById('announceOverlay').classList.add('hidden');
+let announceQueue = [];
+let announceTotal = 0;
+let announceSeq   = 0;      // กันรูปอันก่อนที่โหลดเสร็จช้า มาโผล่ทับอันปัจจุบัน
+let announceTimer = null;
+const ANNOUNCE_IMG_TIMEOUT = 8000;   // โหลดรูปเกิน 8 วิ -> ข้ามให้เอง ไม่ให้ลูกค้าเจอจอมืดค้าง
+function showNextAnnouncement() {
+  const overlay = document.getElementById('announceOverlay');
+  const panel = document.getElementById('announcePanel');
+  const img = document.getElementById('announceImg');
+  const spin = document.getElementById('announceSpin');
+  const seq = ++announceSeq;
+  clearTimeout(announceTimer);
+  img.onload = img.onerror = null;
+  spin.classList.add('hidden');
+  const p = announceQueue.shift();
+  if (!p) { overlay.classList.add('hidden'); return; }
+  if (p.type === 'image') {
+    panel.classList.add('hidden');
+    img.classList.add('hidden');          // โชว์ตอนโหลดรูปเสร็จ ไม่ให้เห็นกรอบว่าง
+    spin.classList.remove('hidden');
+    img.onload = () => {
+      if (seq !== announceSeq) return;
+      clearTimeout(announceTimer);
+      spin.classList.add('hidden');
+      img.classList.remove('hidden');
+    };
+    img.onerror = () => { if (seq === announceSeq) showNextAnnouncement(); };  // รูปหาย -> ข้าม
+    announceTimer = setTimeout(() => { if (seq === announceSeq && img.classList.contains('hidden')) showNextAnnouncement(); },
+                               ANNOUNCE_IMG_TIMEOUT);
+    img.src = p.image;
+    if (img.complete && img.naturalWidth) img.onload();   // รูปอยู่ในแคชแล้ว
+  } else {
+    img.classList.add('hidden');
+    panel.classList.remove('hidden');
+    const n = announceTotal - announceQueue.length;
+    document.getElementById('announceCount').textContent = announceTotal > 1 ? `(${n}/${announceTotal})` : '';
+    document.getElementById('announceBody').textContent = p.message;
+  }
+  overlay.classList.remove('hidden');
+}
+document.getElementById('announceClose').addEventListener('click', showNextAnnouncement);
+document.getElementById('announceImg').addEventListener('click', showNextAnnouncement);
+// แตะพื้นมืดรอบๆ = ข้าม/ปิดป๊อบอัพนี้ (ใช้ได้ทั้งตอนกำลังโหลดรูป และตอนแสดงแล้ว)
+document.getElementById('announceOverlay').addEventListener('click', e => {
+  if (e.target.id === 'announceOverlay' || e.target.id === 'announceSpin') showNextAnnouncement();
 });
 
 /* ── INIT ── */
 (async () => {
   initAnnouncement();
-  await loadData();
+  await Promise.all([loadData(), loadSale(), loadBrazil()]);
+  updatePromoBtn();
+  tickSale();
+  setInterval(tickSale, 1000);
   initEvents();
   initDivider();
   renderFilters();
