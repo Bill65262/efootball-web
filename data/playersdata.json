@@ -1244,5 +1244,54 @@
     "players": [
       "Baggio"
     ]
+  },
+  {
+    "name": "BaleN",
+    "card_img": "BaleN.png",
+    "players": [
+      "BaleN"
+    ]
+  },
+  {
+    "name": "Best",
+    "card_img": "Best.png",
+    "players": [
+      "Best"
+    ]
+  },
+  {
+    "name": "CantonaN",
+    "card_img": "CantonaN.png",
+    "players": [
+      "CantonaN"
+    ]
+  },
+  {
+    "name": "Del PieroN",
+    "card_img": "Del PieroN.png",
+    "players": [
+      "Del PieroN"
+    ]
+  },
+  {
+    "name": "Puyol",
+    "card_img": "Puyol.png",
+    "players": [
+      "Puyol"
+    ]
+  },
+  {
+    "name": "Rosicky",
+    "card_img": "Rosicky.png",
+    "players": [
+      "Rosicky"
+    ]
+  },
+  {
+    "name": "van der sar",
+    "card_img": "van der sar.png",
+    "players": [
+      "van der sar"
+    ]
   }
 ]
