@@ -2,7 +2,7 @@
   {
     "name": "Del PieroN",
     "price": 150,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "MbappeN",
@@ -32,12 +32,12 @@
   {
     "name": "Best",
     "price": 100,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "BaleN",
     "price": 100,
-    "status": "sold"
+    "status": "available"
   },
   {
     "name": "HazardNN",
