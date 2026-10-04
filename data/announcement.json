@@ -6,6 +6,11 @@
       "type": "image",
       "enabled": true,
       "image": "img/popups/ChatGPT_Image_Sep_29_2026_01_01_56_AM_a6c4d80d.webp"
+    },
+    {
+      "type": "image",
+      "enabled": true,
+      "image": "img/popups/KONAMI_ID_Purchase_Preparation_Guide_cdfda8ec.webp"
     }
   ]
 }
