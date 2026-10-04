@@ -9,7 +9,7 @@
     },
     {
       "type": "image",
-      "enabled": true,
+      "enabled": false,
       "image": "img/popups/KONAMI_ID_Purchase_Preparation_Guide_cdfda8ec.webp"
     }
   ]
