@@ -923,5 +923,35 @@
     "name": "Gullit",
     "price": 200,
     "status": "sold"
+  },
+  {
+    "name": "AgueroN",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "DrogbaN",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "EdmilsonN",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "MarceloNN",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "PepeN",
+    "price": 0,
+    "status": "available"
+  },
+  {
+    "name": "Torres",
+    "price": 0,
+    "status": "available"
   }
 ]
