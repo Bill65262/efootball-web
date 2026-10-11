@@ -1293,5 +1293,47 @@
     "players": [
       "Gullit"
     ]
+  },
+  {
+    "name": "AgueroN",
+    "card_img": "AgueroN.png",
+    "players": [
+      "AgueroN"
+    ]
+  },
+  {
+    "name": "DrogbaN",
+    "card_img": "DrogbaN.png",
+    "players": [
+      "DrogbaN"
+    ]
+  },
+  {
+    "name": "EdmilsonN",
+    "card_img": "EdmilsonN.png",
+    "players": [
+      "EdmilsonN"
+    ]
+  },
+  {
+    "name": "MarceloNN",
+    "card_img": "MarceloNN.png",
+    "players": [
+      "MarceloNN"
+    ]
+  },
+  {
+    "name": "PepeN",
+    "card_img": "PepeN.png",
+    "players": [
+      "PepeN"
+    ]
+  },
+  {
+    "name": "Torres",
+    "card_img": "Torres.png",
+    "players": [
+      "Torres"
+    ]
   }
 ]
