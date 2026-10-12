@@ -56,6 +56,13 @@
     ]
   },
   {
+    "name": "Torres",
+    "card_img": "Torres.png",
+    "players": [
+      "Torres"
+    ]
+  },
+  {
     "name": "HazardNN",
     "card_img": "HazardNN.png",
     "players": [
@@ -81,6 +88,20 @@
     "card_img": "HaalandN.png",
     "players": [
       "HaalandN"
+    ]
+  },
+  {
+    "name": "AgueroN",
+    "card_img": "AgueroN.png",
+    "players": [
+      "AgueroN"
+    ]
+  },
+  {
+    "name": "DrogbaN",
+    "card_img": "DrogbaN.png",
+    "players": [
+      "DrogbaN"
     ]
   },
   {
@@ -721,6 +742,13 @@
     ]
   },
   {
+    "name": "EdmilsonN",
+    "card_img": "EdmilsonN.png",
+    "players": [
+      "EdmilsonN"
+    ]
+  },
+  {
     "name": "Edmilson",
     "card_img": "Edmilson.png",
     "players": [
@@ -788,6 +816,13 @@
     "card_img": "Lilian ThuramN.png",
     "players": [
       "Lilian ThuramN"
+    ]
+  },
+  {
+    "name": "MarceloNN",
+    "card_img": "MarceloNN.png",
+    "players": [
+      "MarceloNN"
     ]
   },
   {
@@ -879,6 +914,13 @@
     "card_img": "Varane.png",
     "players": [
       "Varane"
+    ]
+  },
+  {
+    "name": "PepeN",
+    "card_img": "PepeN.png",
+    "players": [
+      "PepeN"
     ]
   },
   {
@@ -1292,48 +1334,6 @@
     "card_img": "Gullit.png",
     "players": [
       "Gullit"
-    ]
-  },
-  {
-    "name": "AgueroN",
-    "card_img": "AgueroN.png",
-    "players": [
-      "AgueroN"
-    ]
-  },
-  {
-    "name": "DrogbaN",
-    "card_img": "DrogbaN.png",
-    "players": [
-      "DrogbaN"
-    ]
-  },
-  {
-    "name": "EdmilsonN",
-    "card_img": "EdmilsonN.png",
-    "players": [
-      "EdmilsonN"
-    ]
-  },
-  {
-    "name": "MarceloNN",
-    "card_img": "MarceloNN.png",
-    "players": [
-      "MarceloNN"
-    ]
-  },
-  {
-    "name": "PepeN",
-    "card_img": "PepeN.png",
-    "players": [
-      "PepeN"
-    ]
-  },
-  {
-    "name": "Torres",
-    "card_img": "Torres.png",
-    "players": [
-      "Torres"
     ]
   }
 ]
