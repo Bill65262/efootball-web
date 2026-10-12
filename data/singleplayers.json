@@ -926,32 +926,32 @@
   },
   {
     "name": "AgueroN",
-    "price": 0,
+    "price": 100,
     "status": "available"
   },
   {
     "name": "DrogbaN",
-    "price": 0,
+    "price": 80,
     "status": "available"
   },
   {
     "name": "EdmilsonN",
-    "price": 0,
+    "price": 40,
     "status": "available"
   },
   {
     "name": "MarceloNN",
-    "price": 0,
+    "price": 40,
     "status": "available"
   },
   {
     "name": "PepeN",
-    "price": 0,
+    "price": 40,
     "status": "available"
   },
   {
     "name": "Torres",
-    "price": 0,
+    "price": 100,
     "status": "available"
   }
 ]
