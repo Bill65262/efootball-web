@@ -40,6 +40,11 @@
     "status": "available"
   },
   {
+    "name": "Torres",
+    "price": 100,
+    "status": "available"
+  },
+  {
     "name": "HazardNN",
     "price": 150,
     "status": "available"
@@ -58,6 +63,16 @@
     "name": "HaalandN",
     "price": 80,
     "status": "sold"
+  },
+  {
+    "name": "AgueroN",
+    "price": 100,
+    "status": "available"
+  },
+  {
+    "name": "DrogbaN",
+    "price": 80,
+    "status": "available"
   },
   {
     "name": "Yamal",
@@ -515,6 +530,11 @@
     "status": "sold"
   },
   {
+    "name": "EdmilsonN",
+    "price": 40,
+    "status": "available"
+  },
+  {
     "name": "Edmilson",
     "price": 40,
     "status": "available"
@@ -563,6 +583,11 @@
     "name": "Lilian ThuramN",
     "price": 80,
     "status": "sold"
+  },
+  {
+    "name": "MarceloNN",
+    "price": 40,
+    "status": "available"
   },
   {
     "name": "MarceloN",
@@ -628,6 +653,11 @@
     "name": "Varane",
     "price": 40,
     "status": "sold"
+  },
+  {
+    "name": "PepeN",
+    "price": 40,
+    "status": "available"
   },
   {
     "name": "Pepe",
@@ -923,35 +953,5 @@
     "name": "Gullit",
     "price": 200,
     "status": "sold"
-  },
-  {
-    "name": "AgueroN",
-    "price": 100,
-    "status": "available"
-  },
-  {
-    "name": "DrogbaN",
-    "price": 80,
-    "status": "available"
-  },
-  {
-    "name": "EdmilsonN",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "MarceloNN",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "PepeN",
-    "price": 40,
-    "status": "available"
-  },
-  {
-    "name": "Torres",
-    "price": 100,
-    "status": "available"
   }
 ]
