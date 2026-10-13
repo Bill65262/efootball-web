@@ -5,12 +5,12 @@
     {
       "type": "image",
       "enabled": false,
-      "image": "img/popups/ChatGPT_Image_Sep_29_2026_01_01_56_AM_a6c4d80d.webp"
+      "image": "img/popups/KONAMI_ID_Purchase_Preparation_Guide_cdfda8ec.webp"
     },
     {
       "type": "image",
-      "enabled": false,
-      "image": "img/popups/KONAMI_ID_Purchase_Preparation_Guide_cdfda8ec.webp"
+      "enabled": true,
+      "image": "img/popups/ad60e5cf-087c-4c58-a6a9-b2fcb160538a_45dd21d3.webp"
     }
   ]
 }
