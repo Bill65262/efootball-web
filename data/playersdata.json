@@ -168,6 +168,13 @@
     ]
   },
   {
+    "name": "SeedorfN",
+    "card_img": "SeedorfN.png",
+    "players": [
+      "SeedorfN"
+    ]
+  },
+  {
     "name": "Haaland",
     "card_img": "Haaland.png",
     "players": [
@@ -707,6 +714,13 @@
     ]
   },
   {
+    "name": "AlonsoN",
+    "card_img": "AlonsoN.png",
+    "players": [
+      "AlonsoN"
+    ]
+  },
+  {
     "name": "Alonso",
     "card_img": "Alonso.png",
     "players": [
@@ -767,6 +781,20 @@
     "card_img": "Yaya.png",
     "players": [
       "Yaya"
+    ]
+  },
+  {
+    "name": "YayaNN",
+    "card_img": "YayaNN.png",
+    "players": [
+      "YayaNN"
+    ]
+  },
+  {
+    "name": "van de ven",
+    "card_img": "van de ven.png",
+    "players": [
+      "van de ven"
     ]
   },
   {
@@ -966,6 +994,13 @@
     ]
   },
   {
+    "name": "Courtois",
+    "card_img": "Courtois.png",
+    "players": [
+      "Courtois"
+    ]
+  },
+  {
     "name": "Kane",
     "card_img": "Kane.png",
     "players": [
@@ -1040,6 +1075,13 @@
     "card_img": "Enzo Fernandez.png",
     "players": [
       "Enzo Fernandez"
+    ]
+  },
+  {
+    "name": "Wesley",
+    "card_img": "Wesley.png",
+    "players": [
+      "Wesley"
     ]
   },
   {
@@ -1334,48 +1376,6 @@
     "card_img": "Gullit.png",
     "players": [
       "Gullit"
-    ]
-  },
-  {
-    "name": "AlonsoN",
-    "card_img": "AlonsoN.png",
-    "players": [
-      "AlonsoN"
-    ]
-  },
-  {
-    "name": "Courtois",
-    "card_img": "Courtois.png",
-    "players": [
-      "Courtois"
-    ]
-  },
-  {
-    "name": "SeedorfN",
-    "card_img": "SeedorfN.png",
-    "players": [
-      "SeedorfN"
-    ]
-  },
-  {
-    "name": "Wesley",
-    "card_img": "Wesley.png",
-    "players": [
-      "Wesley"
-    ]
-  },
-  {
-    "name": "YayaNN",
-    "card_img": "YayaNN.png",
-    "players": [
-      "YayaNN"
-    ]
-  },
-  {
-    "name": "van de ven",
-    "card_img": "van de ven.png",
-    "players": [
-      "van de ven"
     ]
   }
 ]
