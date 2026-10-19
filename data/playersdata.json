@@ -1335,5 +1335,47 @@
     "players": [
       "Gullit"
     ]
+  },
+  {
+    "name": "AlonsoN",
+    "card_img": "AlonsoN.png",
+    "players": [
+      "AlonsoN"
+    ]
+  },
+  {
+    "name": "Courtois",
+    "card_img": "Courtois.png",
+    "players": [
+      "Courtois"
+    ]
+  },
+  {
+    "name": "SeedorfN",
+    "card_img": "SeedorfN.png",
+    "players": [
+      "SeedorfN"
+    ]
+  },
+  {
+    "name": "Wesley",
+    "card_img": "Wesley.png",
+    "players": [
+      "Wesley"
+    ]
+  },
+  {
+    "name": "YayaNN",
+    "card_img": "YayaNN.png",
+    "players": [
+      "YayaNN"
+    ]
+  },
+  {
+    "name": "van de ven",
+    "card_img": "van de ven.png",
+    "players": [
+      "van de ven"
+    ]
   }
 ]
