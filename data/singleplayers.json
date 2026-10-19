@@ -120,6 +120,11 @@
     "status": "available"
   },
   {
+    "name": "SeedorfN",
+    "price": 70,
+    "status": "available"
+  },
+  {
     "name": "Haaland",
     "price": 100,
     "status": "available"
@@ -505,6 +510,11 @@
     "status": "sold"
   },
   {
+    "name": "AlonsoN",
+    "price": 40,
+    "status": "available"
+  },
+  {
     "name": "Alonso",
     "price": 40,
     "status": "available"
@@ -547,6 +557,16 @@
   {
     "name": "Yaya",
     "price": 40,
+    "status": "available"
+  },
+  {
+    "name": "YayaNN",
+    "price": 50,
+    "status": "available"
+  },
+  {
+    "name": "van de ven",
+    "price": 50,
     "status": "available"
   },
   {
@@ -690,6 +710,11 @@
     "status": "sold"
   },
   {
+    "name": "Courtois",
+    "price": 60,
+    "status": "available"
+  },
+  {
     "name": "Kane",
     "price": 40,
     "status": "sold"
@@ -741,6 +766,11 @@
   },
   {
     "name": "Enzo Fernandez",
+    "price": 40,
+    "status": "available"
+  },
+  {
+    "name": "Wesley",
     "price": 40,
     "status": "available"
   },
@@ -953,35 +983,5 @@
     "name": "Gullit",
     "price": 200,
     "status": "sold"
-  },
-  {
-    "name": "AlonsoN",
-    "price": 0,
-    "status": "available"
-  },
-  {
-    "name": "Courtois",
-    "price": 0,
-    "status": "available"
-  },
-  {
-    "name": "SeedorfN",
-    "price": 0,
-    "status": "available"
-  },
-  {
-    "name": "Wesley",
-    "price": 0,
-    "status": "available"
-  },
-  {
-    "name": "YayaNN",
-    "price": 0,
-    "status": "available"
-  },
-  {
-    "name": "van de ven",
-    "price": 0,
-    "status": "available"
   }
 ]
