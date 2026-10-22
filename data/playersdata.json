@@ -210,6 +210,13 @@
     ]
   },
   {
+    "name": "Courtois",
+    "card_img": "Courtois.png",
+    "players": [
+      "Courtois"
+    ]
+  },
+  {
     "name": "PeleN",
     "card_img": "PeleN.png",
     "players": [
@@ -991,13 +998,6 @@
     "card_img": "van der sar.png",
     "players": [
       "van der sar"
-    ]
-  },
-  {
-    "name": "Courtois",
-    "card_img": "Courtois.png",
-    "players": [
-      "Courtois"
     ]
   },
   {
