@@ -150,6 +150,11 @@
     "status": "available"
   },
   {
+    "name": "Courtois",
+    "price": 60,
+    "status": "available"
+  },
+  {
     "name": "PeleN",
     "price": 100,
     "status": "available"
@@ -708,11 +713,6 @@
     "name": "van der sar",
     "price": 60,
     "status": "sold"
-  },
-  {
-    "name": "Courtois",
-    "price": 60,
-    "status": "available"
   },
   {
     "name": "Kane",
