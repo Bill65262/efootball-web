@@ -1146,11 +1146,18 @@ function updatePromoBtn() {
   btn.classList.toggle('active', promoActive());
 }
 
+// % ลดทั้งร้านของไอดีนี้: ดูจากราคาที่ตั้งไว้ว่าอยู่ช่วงไหน ไม่มีช่วงที่ตรง = % หลัก
+function salePctFor(p) {
+  const price = p.price || 0;
+  const t = sale.tiers.find(t => price >= t.min && (t.max == null || price <= t.max));
+  return t ? t.percent : sale.percent;
+}
+
 // ส่วนลดที่ใช้กับไอดีนี้ตอนนี้ ตามลำดับที่ลดซ้อนกัน (บราซิลก่อน แล้วค่อยลดทั้งร้าน)
 function discountsFor(p) {
   const out = [];
   if (isBrazil(p)) out.push(brazilPct);
-  if (saleActive()) out.push(sale.percent);
+  if (saleActive()) out.push(salePctFor(p));
   return out;
 }
 
@@ -1181,7 +1188,9 @@ async function loadSale() {
     if (!res.ok) return;
     const d = await res.json();
     if (d.enabled && d.percent > 0 && d.ends_at_ms > nowMs())
-      sale = { percent: d.percent, startMs: d.starts_at_ms || 0, endsMs: d.ends_at_ms };
+      sale = { percent: d.percent, startMs: d.starts_at_ms || 0, endsMs: d.ends_at_ms,
+               // % แยกตามช่วงราคาที่ตั้ง (ช่วงที่ไม่ได้ใส่ = ใช้ % หลัก)
+               tiers: (Array.isArray(d.tiers) ? d.tiers : []).filter(t => t.percent > 0) };
   } catch (e) { /* ไม่มีไฟล์ = ไม่มีลดราคา */ }
   saleWasActive = saleActive();
 }
