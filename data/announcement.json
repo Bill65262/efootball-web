@@ -9,8 +9,13 @@
     },
     {
       "type": "image",
-      "enabled": true,
+      "enabled": false,
       "image": "img/popups/ad60e5cf-087c-4c58-a6a9-b2fcb160538a_45dd21d3.webp"
+    },
+    {
+      "type": "image",
+      "enabled": true,
+      "image": "img/popups/Screenshot_2026-10-30_013743_773b61fb.webp"
     }
   ]
 }
