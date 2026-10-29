@@ -7,6 +7,13 @@
     ]
   },
   {
+    "name": "MbappeNN",
+    "card_img": "MbappeNN.png",
+    "players": [
+      "MbappeNN"
+    ]
+  },
+  {
     "name": "MbappeN",
     "card_img": "MbappeN.png",
     "players": [
@@ -18,6 +25,13 @@
     "card_img": "Ronaldo.png",
     "players": [
       "Ronaldo"
+    ]
+  },
+  {
+    "name": "KaneN",
+    "card_img": "KaneN.png",
+    "players": [
+      "KaneN"
     ]
   },
   {
@@ -102,6 +116,13 @@
     "card_img": "DrogbaN.png",
     "players": [
       "DrogbaN"
+    ]
+  },
+  {
+    "name": "YamalNN",
+    "card_img": "YamalNN.png",
+    "players": [
+      "YamalNN"
     ]
   },
   {
