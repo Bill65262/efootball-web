@@ -1,36 +1,36 @@
 {
   "enabled": true,
-  "percent": 1,
-  "starts_at": "2026-10-29T13:46:34+07:00",
-  "starts_at_ms": 1793256394649,
+  "percent": 30,
+  "starts_at": "2026-10-29T18:25:10+07:00",
+  "starts_at_ms": 1793273110971,
   "ends_at": "2026-10-29T23:59:00+07:00",
   "ends_at_ms": 1793293140000,
   "tiers": [
     {
       "min": 0,
       "max": 150,
-      "percent": 10
+      "percent": null
     },
     {
       "min": 151,
       "max": 300,
-      "percent": 15
+      "percent": null
     },
     {
       "min": 301,
       "max": 400,
-      "percent": 15
+      "percent": null
     },
     {
       "min": 401,
       "max": 500,
-      "percent": 20
+      "percent": null
     },
     {
       "min": 501,
       "max": null,
-      "percent": 20
+      "percent": null
     }
   ],
-  "updated_at": "2026-10-29T13:46:34+07:00"
+  "updated_at": "2026-10-29T18:25:10+07:00"
 }
