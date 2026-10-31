@@ -88,7 +88,7 @@
       "KaneN"
     ],
     "card_img": "A/Abbiati+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -333,7 +333,7 @@
       "KaneN"
     ],
     "card_img": "A/Abbiati+Edmilson+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -527,7 +527,7 @@
       "YamalNN"
     ],
     "card_img": "A/Abbiati+Massaro+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -626,7 +626,7 @@
       "YamalNN"
     ],
     "card_img": "A/Abbiati+ModricN+Ono+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -863,7 +863,7 @@
       "MbappeNN"
     ],
     "card_img": "A/Abbiati+Ono+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -1183,7 +1183,7 @@
       "YamalNN"
     ],
     "card_img": "A/Abbiati+Ronaldo+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -1239,7 +1239,7 @@
       "YamalNN"
     ],
     "card_img": "A/Abbiati+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -1432,7 +1432,7 @@
       "MbappeNN"
     ],
     "card_img": "A/Abbiati+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -1454,7 +1454,7 @@
       "YamalNN"
     ],
     "card_img": "A/Abbiati+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -4828,7 +4828,7 @@
       "YamalNN"
     ],
     "card_img": "B/Baggio+James Rodriguez+ScholesN+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -4894,7 +4894,7 @@
       "MbappeNN"
     ],
     "card_img": "B/Baggio+Ono+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -6834,7 +6834,7 @@
       "KaneN"
     ],
     "card_img": "B/Berbatov+De Bruyne+CostaN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -7141,7 +7141,7 @@
       "KaneN"
     ],
     "card_img": "B/Berbatov+Neymar+Massaro+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -7327,7 +7327,7 @@
       "YamalNN"
     ],
     "card_img": "B/Berbatov+ScholesN+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -16440,7 +16440,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cafu+Aguero+MbappeNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -16483,7 +16483,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cafu+BergkampN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -17068,7 +17068,7 @@
       "KaneN"
     ],
     "card_img": "C/Cafu+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -17157,7 +17157,7 @@
       "YamalNN"
     ],
     "card_img": "C/Cafu+YamalNN.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -21022,7 +21022,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+AgueroN+MbappeNN.png",
-    "price": 0,
+    "price": 370,
     "status": "available"
   },
   {
@@ -21054,7 +21054,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+AlonsoN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -21065,7 +21065,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+AlonsoN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21119,7 +21119,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+Courtois+KaneN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -21144,7 +21144,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+Courtois+MbappeNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -21197,7 +21197,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+DrogbaN+MbappeNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -21219,7 +21219,7 @@
       "YamalNN"
     ],
     "card_img": "C/CantonaN+DrogbaN+YamalNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -21240,7 +21240,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+EdmilsonN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21284,7 +21284,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+KaneN+MbappeNN.png",
-    "price": 0,
+    "price": 470,
     "status": "available"
   },
   {
@@ -21294,7 +21294,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+KaneN.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -21305,7 +21305,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+MarceloNN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21327,7 +21327,7 @@
       "YamalNN"
     ],
     "card_img": "C/CantonaN+MarceloNN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -21358,7 +21358,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -21381,7 +21381,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+PepeN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21532,7 +21532,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+SeedorfN+MbappeNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -21543,7 +21543,7 @@
       "YamalNN"
     ],
     "card_img": "C/CantonaN+SeedorfN+YamalNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -21586,7 +21586,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+Torres+KaneN.png",
-    "price": 0,
+    "price": 370,
     "status": "available"
   },
   {
@@ -21597,7 +21597,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+Torres+MbappeNN.png",
-    "price": 0,
+    "price": 370,
     "status": "available"
   },
   {
@@ -21619,7 +21619,7 @@
       "YamalNN"
     ],
     "card_img": "C/CantonaN+Torres+YamalNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -21651,7 +21651,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+Wesley+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -21672,7 +21672,7 @@
       "MbappeNN"
     ],
     "card_img": "C/CantonaN+YamalNN+MbappeNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -21682,7 +21682,7 @@
       "YamalNN"
     ],
     "card_img": "C/CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 120,
     "status": "available"
   },
   {
@@ -21693,7 +21693,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+YayaNN+KaneN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -21714,7 +21714,7 @@
       "KaneN"
     ],
     "card_img": "C/CantonaN+van de ven+KaneN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -27241,7 +27241,7 @@
       "KaneN"
     ],
     "card_img": "C/Costa+Araujo+Ono+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -27277,7 +27277,7 @@
       "YamalNN"
     ],
     "card_img": "C/Costa+Berbatov+Aguero+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -27324,7 +27324,7 @@
       "YamalNN"
     ],
     "card_img": "C/Costa+Berbatov+De Bruyne+Ono+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -27758,7 +27758,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Costa+Casemiro+James Rodriguez+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -28324,7 +28324,7 @@
       "KaneN"
     ],
     "card_img": "C/Costa+Edmilson+Salah+Ono+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -29808,7 +29808,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Costa+Neymar+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -30274,7 +30274,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Costa+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -30307,7 +30307,7 @@
       "YamalNN"
     ],
     "card_img": "C/Costa+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -30373,7 +30373,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Costa+Rijkaard+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -30935,7 +30935,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Costa+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -31745,7 +31745,7 @@
       "KaneN"
     ],
     "card_img": "C/Cruyff+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -32239,7 +32239,7 @@
       "KaneN"
     ],
     "card_img": "C/Cruyff+KaneN.png",
-    "price": 0,
+    "price": 250,
     "status": "available"
   },
   {
@@ -32263,7 +32263,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cruyff+Koeman+MbappeNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -32390,7 +32390,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cruyff+MessiN+Rijkaard+MbappeNN.png",
-    "price": 0,
+    "price": 480,
     "status": "available"
   },
   {
@@ -37243,7 +37243,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cunha+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -37566,7 +37566,7 @@
       "YamalNN"
     ],
     "card_img": "C/Cunha+Neuer+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -37827,7 +37827,7 @@
       "MbappeNN"
     ],
     "card_img": "C/Cunha+Rossi+Ronaldo+BergkampN+MbappeNN.png",
-    "price": 0,
+    "price": 580,
     "status": "available"
   },
   {
@@ -37960,7 +37960,7 @@
       "KaneN"
     ],
     "card_img": "C/Cunha+YamalN+Neuer+Ono+KaneN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -37984,7 +37984,7 @@
       "YamalNN"
     ],
     "card_img": "C/Cunha+Zico+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -45162,7 +45162,7 @@
       "YamalNN"
     ],
     "card_img": "D/Donnarumma+Ronaldo+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -46705,7 +46705,7 @@
       "KaneN"
     ],
     "card_img": "D/Dragan Stojkovic+James Rodriguez+Aguero+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -49742,7 +49742,7 @@
       "MbappeNN"
     ],
     "card_img": "D/Dragan Stojkovic+Unai Simon+Vieira+Bommel+MbappeNN.png",
-    "price": 0,
+    "price": 460,
     "status": "available"
   },
   {
@@ -50300,7 +50300,7 @@
       "KaneN"
     ],
     "card_img": "E/Edmilson+Bouaddi+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -50467,7 +50467,7 @@
       "KaneN"
     ],
     "card_img": "E/Edmilson+James Rodriguez+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -50491,7 +50491,7 @@
       "KaneN"
     ],
     "card_img": "E/Edmilson+James Rodriguez+Rijkaard+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -50879,7 +50879,7 @@
       "MbappeNN"
     ],
     "card_img": "E/Edmilson+Peruzzi+YayaN+BergkampN+YamalNN+MbappeNN.png",
-    "price": 0,
+    "price": 460,
     "status": "available"
   },
   {
@@ -51110,7 +51110,7 @@
       "KaneN"
     ],
     "card_img": "E/Edmilson+Seaman+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -54635,7 +54635,7 @@
       "YamalNN"
     ],
     "card_img": "E/Enzo Fernandez+Dragan Stojkovic+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -57216,7 +57216,7 @@
       "YamalNN"
     ],
     "card_img": "F/Ferdinand+Cafu+James Rodriguez+Ono+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -57286,7 +57286,7 @@
       "YamalNN"
     ],
     "card_img": "F/Ferdinand+Costa+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -57396,7 +57396,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Ferdinand+De Bruyne+Seaman+Torres+MbappeNN.png",
-    "price": 0,
+    "price": 410,
     "status": "available"
   },
   {
@@ -57703,7 +57703,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Ferdinand+Massaro+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -57870,7 +57870,7 @@
       "KaneN"
     ],
     "card_img": "F/Ferdinand+Neymar+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -57993,7 +57993,7 @@
       "KaneN"
     ],
     "card_img": "F/Ferdinand+Peruzzi+Massaro+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -63113,7 +63113,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+Aguero+KaneN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -63262,7 +63262,7 @@
       "YamalNN"
     ],
     "card_img": "F/Fletcher+BergkampN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -63941,7 +63941,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+Enzo Fernandez+James Rodriguez+Aguero+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -63974,7 +63974,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+Ferran Torres+Massaro+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -64608,7 +64608,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+Lilian ThuramN+Seaman+KaneN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -65106,7 +65106,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+Neymar+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -65425,7 +65425,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Fletcher+Rice+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -65483,7 +65483,7 @@
       "YamalNN"
     ],
     "card_img": "F/Fletcher+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -65731,7 +65731,7 @@
       "YamalNN"
     ],
     "card_img": "F/Fletcher+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -65799,7 +65799,7 @@
       "KaneN"
     ],
     "card_img": "F/Fletcher+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -65866,7 +65866,7 @@
       "YamalNN"
     ],
     "card_img": "F/Fletcher+Thiago+Raya+Neuer+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 230,
     "status": "available"
   },
   {
@@ -66216,7 +66216,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Forlan+Alonso+Bommel+MbappeNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -66311,7 +66311,7 @@
       "YamalNN"
     ],
     "card_img": "F/Forlan+Berbatov+Ono+YamalNN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -66580,7 +66580,7 @@
       "KaneN"
     ],
     "card_img": "F/Forlan+De Bruyne+CostaN+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -66617,7 +66617,7 @@
       "KaneN"
     ],
     "card_img": "F/Forlan+De Bruyne+James Rodriguez+Rijkaard+KaneN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -67364,7 +67364,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Forlan+MbappeNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -67679,7 +67679,7 @@
       "YamalNN"
     ],
     "card_img": "F/Forlan+Oddo+BergkampN+MarceloNN+YamalNN.png",
-    "price": 0,
+    "price": 310,
     "status": "available"
   },
   {
@@ -68070,7 +68070,7 @@
       "KaneN"
     ],
     "card_img": "F/Forlan+RooneyN+KaneN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -68102,7 +68102,7 @@
       "MbappeNN"
     ],
     "card_img": "F/Forlan+Rossi+RooneyN+MbappeNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -68330,7 +68330,7 @@
       "YamalNN"
     ],
     "card_img": "F/Forlan+Vieira+ModricN+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -73665,7 +73665,7 @@
       "YamalNN"
     ],
     "card_img": "G/Gattuso+Berbatov+Araujo+MessiN+Massaro+YamalNN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -73919,7 +73919,7 @@
       "MbappeNN"
     ],
     "card_img": "G/Gattuso+Bommel+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -74538,7 +74538,7 @@
       "KaneN"
     ],
     "card_img": "G/Gattuso+Cucurella+Massaro+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -75703,7 +75703,7 @@
       "YamalNN"
     ],
     "card_img": "G/Gattuso+Massaro+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -75851,7 +75851,7 @@
       "YamalNN"
     ],
     "card_img": "G/Gattuso+ModricN+BergkampN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -76631,7 +76631,7 @@
       "KaneN"
     ],
     "card_img": "G/Gattuso+Peruzzi+Totti+MessiN+Bommel+CantonaN+EdmilsonN+YamalNN+KaneN.png",
-    "price": 0,
+    "price": 666,
     "status": "available"
   },
   {
@@ -76688,7 +76688,7 @@
       "YamalNN"
     ],
     "card_img": "G/Gattuso+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -76895,7 +76895,7 @@
       "KaneN"
     ],
     "card_img": "G/Gattuso+Ronaldo+CostaN+KaneN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -76907,7 +76907,7 @@
       "YamalNN"
     ],
     "card_img": "G/Gattuso+Ronaldo+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -77111,7 +77111,7 @@
       "MbappeNN"
     ],
     "card_img": "G/Gattuso+Salah+De Bruyne+ScholesN+MbappeNN.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -80588,7 +80588,7 @@
       "MbappeNN"
     ],
     "card_img": "G/Gerrad+RooneyN+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -82676,7 +82676,7 @@
       "MbappeNN"
     ],
     "card_img": "G/Guti+Dimarco+ScholesN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -82791,7 +82791,7 @@
       "YamalNN"
     ],
     "card_img": "G/Guti+Koeman+Berbatov+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -82907,7 +82907,7 @@
       "YamalNN"
     ],
     "card_img": "G/Guti+MessiN+Bommel+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -83302,7 +83302,7 @@
       "KaneN"
     ],
     "card_img": "G/Guti+Rijkaard+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -84118,7 +84118,7 @@
       "MbappeNN"
     ],
     "card_img": "G/Gyokeres+Ronaldo+Aguero+Wesley+MbappeNN.png",
-    "price": 0,
+    "price": 550,
     "status": "available"
   },
   {
@@ -92346,7 +92346,7 @@
       "MbappeNN"
     ],
     "card_img": "H/Hazard+Figo+Vieira+Rijkaard+MbappeNN.png",
-    "price": 0,
+    "price": 460,
     "status": "available"
   },
   {
@@ -92572,7 +92572,7 @@
       "YamalNN"
     ],
     "card_img": "H/Hazard+Lilian ThuramN+Aguero+van de ven+YamalNN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -93159,7 +93159,7 @@
       "YamalNN"
     ],
     "card_img": "H/Hazard+Ronaldinho+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -98041,7 +98041,7 @@
       "KaneN"
     ],
     "card_img": "I/Iniesta+Aguero+KaneN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -98597,7 +98597,7 @@
       "YamalNN"
     ],
     "card_img": "I/Iniesta+Neuer+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -98643,7 +98643,7 @@
       "MbappeNN"
     ],
     "card_img": "I/Iniesta+Neymar+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -98725,7 +98725,7 @@
       "MbappeNN"
     ],
     "card_img": "I/Iniesta+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -98848,7 +98848,7 @@
       "KaneN"
     ],
     "card_img": "I/Iniesta+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -98906,7 +98906,7 @@
       "KaneN"
     ],
     "card_img": "I/Iniesta+Totti+Rodri+Seaman+van de ven+KaneN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -100007,7 +100007,7 @@
       "MbappeNN"
     ],
     "card_img": "I/Isak+Forlan+Oddo+Bommel+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -100042,7 +100042,7 @@
       "KaneN"
     ],
     "card_img": "I/Isak+Manzambi+Ono+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -102884,7 +102884,7 @@
       "YamalNN"
     ],
     "card_img": "K/Kagawa+Aguero+YamalNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -102953,7 +102953,7 @@
       "KaneN"
     ],
     "card_img": "K/Kagawa+Alonso+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -103543,7 +103543,7 @@
       "MbappeNN"
     ],
     "card_img": "K/Kagawa+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -103554,7 +103554,7 @@
       "YamalNN"
     ],
     "card_img": "K/Kagawa+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -105216,7 +105216,7 @@
       "MbappeNN"
     ],
     "card_img": "K/Kagawa+OliseN+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -105580,7 +105580,7 @@
       "YamalNN"
     ],
     "card_img": "K/Kagawa+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -108839,7 +108839,7 @@
       "MbappeNN"
     ],
     "card_img": "K/Koeman+MaldiniN+De Bruyne+BergkampN+MbappeNN.png",
-    "price": 0,
+    "price": 310,
     "status": "available"
   },
   {
@@ -109949,7 +109949,7 @@
       "KaneN"
     ],
     "card_img": "K/Koeman+Rijkaard+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -133507,7 +133507,7 @@
       "KaneN"
     ],
     "card_img": "M/Marcus Thuram+ModricN+RooneyN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -134028,7 +134028,7 @@
       "KaneN"
     ],
     "card_img": "M/Marmous+ReusN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -157174,7 +157174,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+BergkampN+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -157196,7 +157196,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -157218,7 +157218,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+Bommel+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -157240,7 +157240,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+Bommel+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -157452,7 +157452,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+Cafu+Ono+YamalNN+KaneN.png",
-    "price": 0,
+    "price": 440,
     "status": "available"
   },
   {
@@ -157475,7 +157475,7 @@
       "YamalNN"
     ],
     "card_img": "O/Oddo+Cafu+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -157751,7 +157751,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+CostaN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -157762,7 +157762,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -157990,7 +157990,7 @@
       "YamalNN"
     ],
     "card_img": "O/Oddo+Desailly+Aguero+YamalNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -158820,7 +158820,7 @@
       "YamalNN"
     ],
     "card_img": "O/Oddo+Kagawa+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -158922,7 +158922,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+Koeman+RooneyN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -159234,7 +159234,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+Massaro+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -160464,7 +160464,7 @@
       "MbappeNN"
     ],
     "card_img": "O/Oddo+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -160612,7 +160612,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+Romario+Edmilson+Massaro+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -160624,7 +160624,7 @@
       "YamalNN"
     ],
     "card_img": "O/Oddo+Romario+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -161229,7 +161229,7 @@
       "KaneN"
     ],
     "card_img": "O/Oddo+Saviola+Figo+Aguero+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 230,
     "status": "available"
   },
   {
@@ -169604,7 +169604,7 @@
       "MbappeNN"
     ],
     "card_img": "P/Pele+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -169626,7 +169626,7 @@
       "YamalNN"
     ],
     "card_img": "P/Pele+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -169757,7 +169757,7 @@
       "YamalNN"
     ],
     "card_img": "P/Pele+YamalNN.png",
-    "price": 0,
+    "price": 300,
     "status": "available"
   },
   {
@@ -174785,7 +174785,7 @@
       "KaneN"
     ],
     "card_img": "P/Pep+Massaro+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -174807,7 +174807,7 @@
       "YamalNN"
     ],
     "card_img": "P/Pep+Massaro+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -178678,7 +178678,7 @@
       "MbappeNN"
     ],
     "card_img": "P/PepN+De Bruyne+ScholesN+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 260,
     "status": "available"
   },
   {
@@ -181720,7 +181720,7 @@
       "YamalNN"
     ],
     "card_img": "P/PepN+Ono+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -188664,7 +188664,7 @@
       "KaneN"
     ],
     "card_img": "P/Peruzzi+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -188944,7 +188944,7 @@
       "MbappeNN"
     ],
     "card_img": "P/Peruzzi+Lilian ThuramN+Modric+ScholesN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -189136,7 +189136,7 @@
       "YamalNN"
     ],
     "card_img": "P/Peruzzi+Neymar+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -189865,7 +189865,7 @@
       "KaneN"
     ],
     "card_img": "P/Puskas+Bronckhorst+Neymar+Ono+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -192363,7 +192363,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Raphinha+Forlan+Rijkaard+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -194122,7 +194122,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Aguero+KaneN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -194228,7 +194228,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Berbatov+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -194405,7 +194405,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Bommel+DrogbaN+van de ven+KaneN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -194718,7 +194718,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -194799,7 +194799,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+De Bruyne+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -194913,7 +194913,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Desailly+Salah+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -195153,7 +195153,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Garcia+Aguero+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -195343,7 +195343,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+Gerrad+ScholesN+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -195682,7 +195682,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+KoemanN+Bommel+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -195765,7 +195765,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Kvaratskhelia+Massaro+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -195902,7 +195902,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+MbappeN+Bommel+KaneN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -196256,7 +196256,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Neymar+ModricN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -196492,7 +196492,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Ono+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -196645,7 +196645,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Peruzzi+Rice+ModricN+Seaman+KaneN.png",
-    "price": 0,
+    "price": 330,
     "status": "available"
   },
   {
@@ -196950,7 +196950,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Ronaldo+Aguero+KaneN.png",
-    "price": 0,
+    "price": 420,
     "status": "available"
   },
   {
@@ -197137,7 +197137,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Salah+ScholesN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -197221,7 +197221,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+Scholes+De Bruyne+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -197280,7 +197280,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -197335,7 +197335,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Reus+Seaman+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -197449,7 +197449,7 @@
       "KaneN"
     ],
     "card_img": "R/Reus+Totti+James Rodriguez+Rijkaard+KaneN.png",
-    "price": 0,
+    "price": 210,
     "status": "available"
   },
   {
@@ -197513,7 +197513,7 @@
       "YamalNN"
     ],
     "card_img": "R/Reus+Totti+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -201127,7 +201127,7 @@
       "YamalNN"
     ],
     "card_img": "R/Romario+BergkampN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -202132,7 +202132,7 @@
       "KaneN"
     ],
     "card_img": "R/Romario+KoemanN+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -202369,7 +202369,7 @@
       "KaneN"
     ],
     "card_img": "R/Romario+MessiN+BergkampN+KaneN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -202669,7 +202669,7 @@
       "KaneN"
     ],
     "card_img": "R/Romario+Neuer+Seaman+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -204158,7 +204158,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Ronaldinho+Desailly+Massaro+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -204170,7 +204170,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Ronaldinho+Desailly+Rijkaard+MbappeNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -204377,7 +204377,7 @@
       "YamalNN"
     ],
     "card_img": "R/Ronaldinho+Neuer+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -204533,7 +204533,7 @@
       "KaneN"
     ],
     "card_img": "R/Ronaldinho+ScholesN+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -207285,7 +207285,7 @@
       "KaneN"
     ],
     "card_img": "R/Rooney+Abbiati+MessiN+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 400,
     "status": "available"
   },
   {
@@ -207637,7 +207637,7 @@
       "YamalNN"
     ],
     "card_img": "R/Rooney+Cafu+GyokeresN+Raya+Neuer+James Rodriguez+Rijkaard+CantonaN+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -208283,7 +208283,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Rooney+Gerd Muller+Seaman+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 450,
     "status": "available"
   },
   {
@@ -209017,7 +209017,7 @@
       "KaneN"
     ],
     "card_img": "R/Rooney+Neuer+Aguero+KaneN.png",
-    "price": 0,
+    "price": 350,
     "status": "available"
   },
   {
@@ -209318,7 +209318,7 @@
       "YamalNN"
     ],
     "card_img": "R/Rooney+Ono+YamalNN.png",
-    "price": 0,
+    "price": 220,
     "status": "available"
   },
   {
@@ -209532,7 +209532,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Rooney+Rijkaard+MbappeNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -209713,7 +209713,7 @@
       "YamalNN"
     ],
     "card_img": "R/Rooney+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 250,
     "status": "available"
   },
   {
@@ -209785,7 +209785,7 @@
       "MbappeNN"
     ],
     "card_img": "R/Rooney+Saviola+Vitinha+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 310,
     "status": "available"
   },
   {
@@ -209841,7 +209841,7 @@
       "KaneN"
     ],
     "card_img": "R/Rooney+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -210016,7 +210016,7 @@
       "KaneN"
     ],
     "card_img": "R/Rooney+Vieira+De Bruyne+Aguero+KaneN.png",
-    "price": 0,
+    "price": 500,
     "status": "available"
   },
   {
@@ -222390,7 +222390,7 @@
       "MbappeNN"
     ],
     "card_img": "S/Scholes+BergkampN+MbappeNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -222724,7 +222724,7 @@
       "MbappeNN"
     ],
     "card_img": "S/Scholes+CostaN+MarceloNN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -222780,7 +222780,7 @@
       "MbappeNN"
     ],
     "card_img": "S/Scholes+CruyffNN+ModricN+MbappeNN.png",
-    "price": 0,
+    "price": 390,
     "status": "available"
   },
   {
@@ -223199,7 +223199,7 @@
       "YamalNN"
     ],
     "card_img": "S/Scholes+Enzo Fernandez+Schweinsteiger+Ronaldo+BergkampN+YamalNN.png",
-    "price": 0,
+    "price": 380,
     "status": "available"
   },
   {
@@ -223317,7 +223317,7 @@
       "MbappeNN"
     ],
     "card_img": "S/Scholes+Gerrad+Ronaldo+BergkampN+CantonaN+MbappeNN.png",
-    "price": 0,
+    "price": 480,
     "status": "available"
   },
   {
@@ -223920,7 +223920,7 @@
       "YamalNN"
     ],
     "card_img": "S/Scholes+Modric+Aguero+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -223965,7 +223965,7 @@
       "MbappeNN"
     ],
     "card_img": "S/Scholes+ModricN+CostaN+MbappeNN.png",
-    "price": 0,
+    "price": 240,
     "status": "available"
   },
   {
@@ -224035,7 +224035,7 @@
       "KaneN"
     ],
     "card_img": "S/Scholes+ModricN+Ronaldo+CostaN+KaneN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -224126,7 +224126,7 @@
       "KaneN"
     ],
     "card_img": "S/Scholes+Neuer+Massaro+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -224585,7 +224585,7 @@
       "YamalNN"
     ],
     "card_img": "S/Scholes+Peruzzi+Enzo Fernandez+Ekitike+James Rodriguez+ScholesN+Courtois+YamalNN.png",
-    "price": 0,
+    "price": 370,
     "status": "available"
   },
   {
@@ -230920,7 +230920,7 @@
       "KaneN"
     ],
     "card_img": "T/Totti+Berbatov+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -230986,7 +230986,7 @@
       "KaneN"
     ],
     "card_img": "T/Totti+Bommel+DrogbaN+KaneN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -231226,7 +231226,7 @@
       "MbappeNN"
     ],
     "card_img": "T/Totti+Lilian ThuramN+ModricN+James Rodriguez+RooneyN+MbappeNN.png",
-    "price": 0,
+    "price": 450,
     "status": "available"
   },
   {
@@ -231570,7 +231570,7 @@
       "KaneN"
     ],
     "card_img": "T/Totti+RooneyN+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -240949,7 +240949,7 @@
       "KaneN"
     ],
     "card_img": "Y/Yaya+Bommel+KaneN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -241029,7 +241029,7 @@
       "YamalNN"
     ],
     "card_img": "Y/Yaya+De Bruyne+Rijkaard+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -241249,7 +241249,7 @@
       "YamalNN"
     ],
     "card_img": "Y/Yaya+MessiN+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 340,
     "status": "available"
   },
   {
@@ -241437,7 +241437,7 @@
       "YamalNN"
     ],
     "card_img": "Y/Yaya+RooneyN+YamalNN.png",
-    "price": 0,
+    "price": 170,
     "status": "available"
   },
   {
@@ -241469,7 +241469,7 @@
       "YamalNN"
     ],
     "card_img": "Y/Yaya+ScholesN+YamalNN.png",
-    "price": 0,
+    "price": 140,
     "status": "available"
   },
   {
@@ -241546,7 +241546,7 @@
       "YamalNN"
     ],
     "card_img": "Y/Yaya+Unai Simon+Seaman+YamalNN.png",
-    "price": 0,
+    "price": 190,
     "status": "available"
   },
   {
@@ -243522,7 +243522,7 @@
       "YamalNN"
     ],
     "card_img": "Z/Zico+CostaN+YamalNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -244042,7 +244042,7 @@
       "KaneN"
     ],
     "card_img": "Z/Zico+Kane+Ono+KaneN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -244055,7 +244055,7 @@
       "MbappeNN"
     ],
     "card_img": "Z/Zico+Kane+Rossi+ScholesN+MbappeNN.png",
-    "price": 0,
+    "price": 360,
     "status": "available"
   },
   {
@@ -244105,7 +244105,7 @@
       "YamalNN"
     ],
     "card_img": "Z/Zico+Kounde+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -244185,7 +244185,7 @@
       "MbappeNN"
     ],
     "card_img": "Z/Zico+Lilian ThuramN+Seaman+MbappeNN.png",
-    "price": 0,
+    "price": 450,
     "status": "available"
   },
   {
@@ -244231,7 +244231,7 @@
       "KaneN"
     ],
     "card_img": "Z/Zico+Massaro+KaneN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -244242,7 +244242,7 @@
       "MbappeNN"
     ],
     "card_img": "Z/Zico+Massaro+MbappeNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -244253,7 +244253,7 @@
       "YamalNN"
     ],
     "card_img": "Z/Zico+Massaro+YamalNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -245040,7 +245040,7 @@
       "MbappeNN"
     ],
     "card_img": "Z/Zico+ReusN+MbappeNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -245051,7 +245051,7 @@
       "YamalNN"
     ],
     "card_img": "Z/Zico+ReusN+YamalNN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -245436,7 +245436,7 @@
       "KaneN"
     ],
     "card_img": "Z/Zico+Salah+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 290,
     "status": "available"
   },
   {
@@ -245458,7 +245458,7 @@
       "KaneN"
     ],
     "card_img": "Z/Zico+ScholesN+KaneN.png",
-    "price": 0,
+    "price": 270,
     "status": "available"
   },
   {
@@ -246184,7 +246184,7 @@
       "MbappeNN"
     ],
     "card_img": "Z/ZlaN+BergkampN+MbappeNN.png",
-    "price": 0,
+    "price": 320,
     "status": "available"
   },
   {
@@ -252980,7 +252980,7 @@
       "KaneN"
     ],
     "card_img": "Z/Zlatan+ReusN+CantonaN+KaneN.png",
-    "price": 0,
+    "price": 390,
     "status": "available"
   },
   {
